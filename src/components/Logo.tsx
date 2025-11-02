@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import * as logo from "@/assets/Logo.svg";
+import * as logo from "@/assets/LogoText.svg";
 import Link from "next/link";
 
 const Logo = () => {
@@ -9,8 +9,8 @@ const Logo = () => {
       <Image 
         src={logo} 
         alt="Sygencey Logo" 
-        height={100}
-        width={100} 
+        height={30}
+        // width={100}
       />
     </Link>
   );

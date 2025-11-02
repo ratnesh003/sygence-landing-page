@@ -20,7 +20,7 @@ import { Button } from "./ui/button";
 export default function Navbar() {
   return (
     <React.Fragment>
-      <nav className="flex justify-between border-2 border-red-500">
+      <nav className="sticky top-0 z-10 bg-primary flex justify-between items-center px-16 py-[14px]">
         <Logo />
         <NavigationMenu viewport={false}>
           <NavigationMenuList>
@@ -62,7 +62,7 @@ export default function Navbar() {
               <Button variant={"outline"} children={"Contact"} />
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Button variant={"default"} children={"Request a Demo"} />
+              <Button variant={"default"} className="bg-accent-foreground text-primary hover:bg-accent-foreground/90" children={"Request a Demo"} />
             </NavigationMenuItem>
             {/* <NavigationMenuItem>
               <ModeToggle />

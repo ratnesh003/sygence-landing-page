@@ -1,8 +1,10 @@
 import React from 'react'
 
+import hero from "../_constants/hero.json"
+
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div>{hero.title}</div>
   )
 }
 

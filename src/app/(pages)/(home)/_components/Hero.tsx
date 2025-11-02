@@ -1,3 +1,4 @@
+import AnimatedNetworkBackground from "@/app/(pages)/(home)/_components/AnimatedNetworkBackground";
 import { Button } from "@/components/ui/button";
 import React from "react";
 
@@ -5,6 +6,7 @@ const Hero = () => {
   return (
     <React.Fragment>
       <section className="flex flex-col justify-center items-center xl:h-[100vh]">
+        {/* <AnimatedNetworkBackground /> */}
         <h1>Hero Section Main Text</h1>
         <p>Hero Section Supporting text</p>
         <div className="flex justify-between bg-transparent items-center gap-4 m-4">
