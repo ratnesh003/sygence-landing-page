@@ -1,9 +1,19 @@
 import React from 'react'
 
+import { 
+  Hero, 
+  Deliverables,
+  Workflow
+} from './_components'
+
 const SolutionsPage = () => {
   return (
-    <div>SolutionsPage</div>
+    <React.Fragment>
+      <Hero />
+      <Deliverables />
+      <Workflow />
+    </React.Fragment>
   )
-}
+} 
 
 export default SolutionsPage

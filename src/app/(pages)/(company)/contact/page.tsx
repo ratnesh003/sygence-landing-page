@@ -1,8 +1,16 @@
 import React from 'react'
 
+import { 
+  Details,
+  ContactForm
+} from './_components'
+
 const ContactUsPage = () => {
   return (
-    <div>ContactUsPage</div>
+    <React.Fragment>
+      <Details />
+      <ContactForm />
+    </React.Fragment>
   )
 }
 
