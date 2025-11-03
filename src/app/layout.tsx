@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Sygency",
+  title: "Sygence",
   description: "Sygence - Next Generation Network Solutions",
 };
 

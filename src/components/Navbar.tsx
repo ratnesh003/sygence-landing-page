@@ -13,7 +13,6 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 
-import { ModeToggle } from "./mode-toggle";
 import Logo from "./Logo";
 import { Button } from "./ui/button";
 
@@ -58,15 +57,20 @@ export default function Navbar() {
                 </ul>
               </NavigationMenuContent>
             </NavigationMenuItem>
-            <NavigationMenuItem>
-              <Button variant={"outline"} children={"Contact"} />
+            <NavigationMenuItem className="mr-3">
+              <Link href={"/contact"}>
+                <Button variant={"outline"} children={"Contact"} />
+              </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Button variant={"default"} className="bg-accent-foreground text-primary hover:bg-accent-foreground/90" children={"Request a Demo"} />
+              <Link href={"/contact"}>
+                <Button
+                  variant={"default"}
+                  className="bg-accent-foreground text-primary hover:bg-accent-foreground/90"
+                  children={"Request a Demo"}
+                />
+              </Link>
             </NavigationMenuItem>
-            {/* <NavigationMenuItem>
-              <ModeToggle />
-            </NavigationMenuItem> */}
           </NavigationMenuList>
         </NavigationMenu>
       </nav>

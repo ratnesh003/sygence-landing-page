@@ -1,0 +1,17 @@
+{
+    "title": "The Legacy Gap: Why ERPs, CRMs & APIs Can’t Fix This.",
+    "cards" : [
+        {
+            "header" : "The Cost of Disruption",
+            "content": "Billions have been spent digitizing enterprises, yet the orchestration of networks remains unsolved. Each disruption - COVID-19, ESG mandates, demand swings and supply shocks has only magnified the cost: lost revenue, shrinking margins and broken trust."
+        },
+        {
+            "header": "Limits of Legacy Systems",
+            "content": "Traditional systems were built to optimize within a single company. They centralize data and streamline KPIs, but they were never designed to coordinate dozens of independent organizations."
+        }, 
+        {
+            "header":"Why APIs Aren’t Enough",
+            "content":"APIs connect partners, but they don’t align them. Data flows in disjointed hub-and-spoke patterns - delayed and incomplete. When disruption strikes, no one has a unified view, coordination breaks down and costs escalate."
+        }
+    ]
+}
