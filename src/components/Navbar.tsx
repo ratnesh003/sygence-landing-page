@@ -59,7 +59,7 @@ export default function Navbar() {
             </NavigationMenuItem>
             <NavigationMenuItem className="mr-3">
               <Link href={"/contact"}>
-                <Button variant={"outline"} children={"Contact"} />
+                <Button variant={"outline"}>Contact</Button>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
@@ -67,8 +67,9 @@ export default function Navbar() {
                 <Button
                   variant={"default"}
                   className="bg-accent-foreground text-primary hover:bg-accent-foreground/90"
-                  children={"Request a Demo"}
-                />
+                >
+                  Request a Demo
+                </Button>
               </Link>
             </NavigationMenuItem>
           </NavigationMenuList>
