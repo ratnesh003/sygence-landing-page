@@ -17,13 +17,15 @@ interface CardsProps {
 
 const LegacyGap = () => {
   const cards: CardsProps[] = legacyGap.cards;
+  const title: string = legacyGap.title
 
   return (
     <React.Fragment>
-      <Border>
-        <div className="flex flex-row gap-8">
+      <Border className="bg-accent">
+        <h1 className="text-6xl font-medium tracking-tighter text-center mb-20">{title}</h1>
+        <div className="flex flex-row justify-center items-center gap-8">
           {cards.map((card, id) => (
-            <Card key={id + 1} className="w-96">
+            <Card key={id + 1} className="w-96 hover:scale-110 hover:ring-[1px] hover:ring-primary-foreground">
               <CardHeader>
                 <CardTitle className="font-mono">{card.header}</CardTitle>
               </CardHeader>

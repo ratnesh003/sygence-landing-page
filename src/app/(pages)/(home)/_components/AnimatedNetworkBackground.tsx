@@ -26,7 +26,7 @@ const AnimatedNetworkBackground = () => {
     };
     window.addEventListener("resize", resize);
 
-    const nodeCount = Math.min(120, Math.floor(width / 4)); // scale nodes by screen width
+    const nodeCount = Math.min(108, Math.floor(width / 10)); // scale nodes by screen width
     const maxDist = 120; // shorter connection distance
     const mouse = { x: width / 2, y: height / 2, radius: 150 };
 
@@ -108,7 +108,7 @@ const AnimatedNetworkBackground = () => {
   return (
     <canvas
       ref={canvasRef}
-      className="absolute top-0 left-0 w-full h-screen -z-10"
+      className="absolute top-16 left-0 w-full h-screen -z-10"
       style={{
         background:
           "radial-gradient(ellipse at bottom, #020024 0%, #090979 50%, #000000 100%)",

@@ -1,0 +1,26 @@
+{
+    "title": "Impact That Scales Across Industries",
+    "description": "With Sygence, enterprises don’t just run their operations better. They run their entire network smarter.",
+    "cards" : [
+        {
+            "header": "Partner Activation",
+            "icon": ""
+        },
+        {
+            "header": "Assured Compliance",
+            "icon": ""
+        },
+        {
+            "header": "End-to-End Orchestration",
+            "icon": ""
+        },
+        {
+            "header": "Unified Flows",
+            "icon": ""
+        },
+        {
+            "header": "Proactive Resilience",
+            "icon": ""
+        }
+    ]
+}

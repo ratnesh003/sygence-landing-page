@@ -1,3 +1,4 @@
+"use client";
 import * as React from "react"
 
 // Order of the components followed as per figma design

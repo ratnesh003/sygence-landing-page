@@ -13,7 +13,7 @@ const Border = React.forwardRef<HTMLDivElement, BorderProps>(
       <Comp
         ref={ref}
         className={clsx(
-          "px-5 py-16 md:px-18 md:py-24 xl:px-20 xl:py-28",
+          "relative px-5 py-16 md:px-18 md:py-24 xl:px-20 xl:py-28",
           className
         )}
         {...restProps}
