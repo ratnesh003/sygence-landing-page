@@ -7,7 +7,7 @@ const CallToAction = () => {
   return (
     <Border>
       <div className='w-full bg-primary-foreground flex flex-col items-center justify-center gap-2.5 h-96 rounded-xl'>
-        <h1 className='text-primary'>Enterprise Intelligence for the Connected Age</h1>
+        <h1 className='text-primary text-5xl w-4xl text-center'>Enterprise Intelligence for the Connected Age</h1>
         <p className='text-primary'>Now is the time to transform your enterprise and your network into an unstoppable force.</p>
         <Button className='w-fit'>Request a Demo</Button>
       </div>

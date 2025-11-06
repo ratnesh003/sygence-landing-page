@@ -93,7 +93,7 @@ export default function NexNetOverview() {
               ))}
 
               {/* Center logo placeholder */}
-              <div className="text-blue-600 text-6xl font-bold select-none z-10">
+              <div className="text-primary-foreground text-6xl font-bold select-none z-10">
                 S
               </div>
 
@@ -102,7 +102,7 @@ export default function NexNetOverview() {
                 <div
                   className={`absolute ${tab.pos} transition-all duration-500 ${
                     activeIndex === idx
-                      ? "bg-blue-600 text-white scale-110 shadow-lg"
+                      ? "bg-primary-foreground text-white scale-110 shadow-lg"
                       : "bg-white text-gray-800 scale-100"
                   } border rounded-full px-4 py-2 shadow-md text-xs whitespace-nowrap font-medium`}
                   key={idx + 1}
@@ -120,7 +120,7 @@ export default function NexNetOverview() {
               <p className="text-gray-600 text-lg leading-relaxed mb-8 transition-all duration-500">
                 {nexNetOverview.cards[activeIndex].content}
               </p>
-              <button className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 hover:shadow-xl transition-all duration-300 font-medium">
+              <button className="bg-primary-foreground text-white px-6 py-3 rounded-lg shadow-lg hover:bg-primary-foreground/90 hover:shadow-xl transition-all duration-300 font-medium">
                 Explore NexNet →
               </button>
             </div>
