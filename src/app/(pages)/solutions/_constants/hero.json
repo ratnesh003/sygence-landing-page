@@ -2,5 +2,6 @@
   "title": "Transform your enterprise and your network - into an unstoppable force.",
   "subtitle": "",
   "ctaText": "Get Started",
-  "ctaLink": "/contact"
+  "ctaLink": "/contact",
+  "bgImage": "/assets/solutions/hero-banner.svg"
 }

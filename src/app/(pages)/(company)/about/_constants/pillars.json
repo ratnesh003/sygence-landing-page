@@ -1,0 +1,21 @@
+{
+    "title": "Three pillars set NexNet apart",
+    "description": "Sygence is building what’s been missing - the new Operating System for the Network Economy, one that breaks silos, shapes tomorrow and harnesses the network effect to transform both enterprises and their ecosystems into unstoppable forces.",
+    "cards": [
+        {
+            "header": "Network-native foundation",
+            "content": "a single version of truth across all internal and partner transactions, enabling seamless execution, adaptability and resilience.",
+            "icon": ""
+        },
+        {
+            "header": "Network-aware AI",
+            "content": "accelerates processes, anticipates disruptions and prescribes actions to boost efficiency, capital performance and ESG outcomes.",
+            "icon": ""
+        },
+        {
+            "header": "Zero integration overhead",
+            "content": "deploys instantly with no middleware, custom APIs  or vendor lock-in.",
+            "icon": ""
+        }
+    ]
+}

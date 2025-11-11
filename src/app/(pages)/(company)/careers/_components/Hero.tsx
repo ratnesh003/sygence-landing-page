@@ -2,10 +2,7 @@
 import React from "react";
 
 import Border from "@/components/Border";
-import * as heroBanner from "@/assets/careers/hero-banner.svg";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -25,8 +22,10 @@ const Hero = () => {
       {/* IMAGE - CENTER LEFT */}
       <div className="absolute right-0 top-3/5 -translate-y-1/2 -z-10 w-[40%]">
         <Image
-          src={heroBanner}
+          src={"/assets/company/careers/hero-banner.svg"}
           alt="Hero Banner"
+          width={100}
+          height={100}
           className="w-full h-auto object-contain"
           priority
         />

@@ -1,9 +1,7 @@
-import React from 'react'
+"use client"
+import NexNetDashboard from "./Dashboard";
+import { deliverables } from "../_constants";
 
-const Deliverables = () => {
-  return (
-    <div>Deliverables</div>
-  )
+export default function Deliverables() {
+  return <NexNetDashboard data={deliverables} />;
 }
-
-export default Deliverables

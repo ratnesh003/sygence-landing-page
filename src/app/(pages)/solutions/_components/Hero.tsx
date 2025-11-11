@@ -2,7 +2,8 @@
 import React from "react";
 
 import Border from "@/components/Border";
-import * as heroBanner from "@/assets/solutions/hero-banner.png";
+// import * as heroBanner from "@/assets/solutions/hero-banner.png";
+import { hero } from "../_constants"
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -23,8 +24,10 @@ const Hero = () => {
       {/* IMAGE - CENTER LEFT */}
       <div className="absolute right-0 top-1/2 -translate-y-1/2 -z-10 w-[45%]">
         <Image
-          src={heroBanner}
+          src={hero.bgImage}
           alt="Hero Banner"
+          height={100}
+          width={100}
           className="w-full h-auto object-contain"
           priority
         />
