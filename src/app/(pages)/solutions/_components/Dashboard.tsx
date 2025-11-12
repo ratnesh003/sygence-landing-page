@@ -1,4 +1,5 @@
 "use client";
+import Border from "@/components/Border";
 import React, { useState } from "react";
 
 export interface DeliverableCard {
@@ -15,7 +16,6 @@ export interface DeliverablesData {
   cards: DeliverableCard[];
 }
 
-
 interface NexNetDashboardProps {
   data: DeliverablesData;
 }
@@ -25,7 +25,7 @@ const NexNetDashboard: React.FC<NexNetDashboardProps> = ({ data }) => {
   const { title, description, cards } = data;
 
   return (
-    <section className="min-h-screen bg-white text-gray-800 px-8 py-16">
+    <Border>
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <header className="text-center mb-12">
@@ -37,23 +37,28 @@ const NexNetDashboard: React.FC<NexNetDashboardProps> = ({ data }) => {
 
         <div className="flex gap-12">
           {/* Sidebar Navigation */}
-          <nav className="w-72 flex-shrink-0 border-r border-gray-200 pr-4">
+          <nav className="w-60 flex-shrink-0 border-r border-gray-200 pr-4">
             <ul className="space-y-4">
               {cards.map((card, index) => (
                 <li key={index}>
                   <button
                     className={`flex items-center gap-2 text-left w-full text-sm font-medium transition-colors duration-200 ${
                       activeIndex === index
-                        ? "text-blue-600"
-                        : "text-gray-600 hover:text-blue-500"
+                        ? "font-bold"
+                        : "text-gray-600 hover:text-primary-foreground"
                     }`}
                     onClick={() => setActiveIndex(index)}
                   >
-                    <span>{card.nav}</span>
+                    <span
+                      className={`pb-1.5 ${
+                        activeIndex === index
+                          ? "border-b-2 border-primary-foreground"
+                          : "border-b-2 border-transparent"
+                      }`}
+                    >
+                      {card.nav}
+                    </span>
                   </button>
-                  {activeIndex === index && (
-                    <div className="ml-2 mt-2 h-0.5 w-2/3 bg-blue-600 rounded" />
-                  )}
                 </li>
               ))}
             </ul>
@@ -61,7 +66,7 @@ const NexNetDashboard: React.FC<NexNetDashboardProps> = ({ data }) => {
 
           {/* Main Content */}
           <article className="flex-1">
-            <h2 className="text-3xl md:text-4xl font-semibold text-blue-500 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-semibold text-primary-foreground leading-tight">
               {cards[activeIndex].header}
             </h2>
             <p className="mt-3 italic text-lg text-gray-600">
@@ -85,7 +90,7 @@ const NexNetDashboard: React.FC<NexNetDashboardProps> = ({ data }) => {
           </article>
         </div>
       </div>
-    </section>
+    </Border>
   );
 };
 

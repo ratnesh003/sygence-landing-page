@@ -1,9 +1,44 @@
-import React from 'react'
+import React from "react";
+
+import Border from "@/components/Border";
+import { advisors } from "../_constants";
+import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 const Advisors = () => {
   return (
-    <div>Advisors</div>
-  )
-}
+    <Border>
+      <div className="flex flex-col items-center justify-center">
+        <h1 className="text-5xl font-medium tracking-tight mb-6">{advisors.title}</h1>
+        <p className="w-3xl text-center tracking-wide mb-20">{advisors.description}</p>
+        {advisors.cards.map((content, idx) => (
+          <div
+            className={cn(
+              "flex item-center justify-center w-full mb-8",
+              idx % 2 ? "flex-row-reverse" : "flex-row"
+            )}
+            key={idx + 1}
+          >
+            <div className="w-full xl:w-1/4">
+              <Image
+                src={content.proPic}
+                height={100}
+                width={100}
+                alt={content.name + "profile pic"}
+                className="w-full object-contain h-auto"
+              />
+            </div>
+            <div className={cn("w-full xl:w-3/4",idx % 2 ? "pr-6" : "pl-6")}>
+              <h1 className="font-medium text-4xl tracking-tighter mb-4">{content.name}</h1>
+              {content.description.map((para, idx) => (
+                <p key={idx + 1} className="text-[16px] font-normal tracking-tighter mb-6">{para}</p>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </Border>
+  );
+};
 
-export default Advisors
+export default Advisors;

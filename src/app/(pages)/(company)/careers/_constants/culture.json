@@ -1,0 +1,19 @@
+{
+    "title": "A Culture of Curiosity and Collaboration",
+    "description": "We believe meaningful innovation happens when smart, driven people work together with purpose.",
+    "bannerImage": "/assets/company/careers/culture-banner.svg",
+    "list": [
+        {
+            "header": "Innovation",
+            "content": "We approach complex global challenges with creativity and first-principles thinking."
+        },
+        {
+            "header": "Collaboration",
+            "content": "We promote a culture of openness, continuous learning and mutual respect."
+        },
+        {
+            "header": "Impact",
+            "content": "We operate with clarity and focus to deliver measurable results for enterprises and their networks."
+        }
+    ]
+}
