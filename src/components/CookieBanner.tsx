@@ -5,6 +5,13 @@ import { Button } from "@/components/ui/button";
 
 const COOKIE_KEY = "sygence_cookie_consent";
 
+interface DefaultConsentProps {
+  essential: boolean,
+  functional: boolean,
+  analytics: boolean,
+  marketing: boolean,
+}
+
 const defaultConsent = {
   essential: true,
   functional: false,
@@ -22,7 +29,7 @@ export default function CookieBanner() {
     }
   }, []);
 
-  const saveConsent = (consentObj: any) => {
+  const saveConsent = (consentObj: DefaultConsentProps) => {
     localStorage.setItem(COOKIE_KEY, JSON.stringify(consentObj));
     setShow(false);
   };
