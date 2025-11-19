@@ -1,0 +1,32 @@
+{
+  "title": "G. Special Cases in Which We Share Personal and Transactional Information",
+  "subtitle": "G.2 Data Sharing",
+  "list": [
+    {
+      "heading": "1. Enforcement of our rights",
+      "text": "We may disclose personal information and service data to a third party if we believe that such disclosure is necessary for preventing fraud, spam filtering, investigating any suspected illegal activity, enforcing our agreements or policies or protecting the safety of our users."
+    },
+    {
+      "heading": "2. Use of Other Users' Information",
+      "text": "If you use the Network, your email address and certain other information you choose to add to your profile may be accessible to other users. By using the Network, you agree that, with respect to other users' information you obtain through your use of the Network, you will only use such information for:",
+      "bullets": [
+        "Communications related to the Network that are not unsolicited commercial messages.",
+        "Any other purpose that such user expressly agrees to after adequate disclosure of such purpose.",
+        "Under no circumstances may you disclose information of another user to any third-party without our consent and the consent of such other user."
+      ]
+    },
+    {
+      "heading": "3. Third Party Communications",
+      "text": "When you are involved in a transaction as a result of your use or access of the Network, each party involved in said transaction may obtain access to the other party's name, email address, phone number and other contact and shipping information. We cannot guarantee the privacy or security of your information when you deal with such third parties."
+    },
+    {
+      "heading": "4. Transaction History",
+      "text": "All transaction-related information is stored within the respective customer's database. When a supplier accesses a customer's database to review or retrieve transaction history, such access takes place directly within the customer's environment."
+    },
+    {
+      "heading": "5. Inventory Threshold Notifications",
+      "text": "Sygence includes network intelligence capabilities designed to proactively address supply-demand imbalances. When the inventory level of a particular item within a supplier's environment falls below a predefined threshold, the Platform may use this information to generate a network-wide notification. This notification is automatically shared with all relevant customers and suppliers connected to that specific supply chain, enabling them to anticipate potential demand and adjust their production, procurement or inventory strategies accordingly.",
+      "footer": "These alerts optimize network efficiency, prevent stockouts and reduce excess inventory across the ecosystem. While the signal originates from a specific supplier's data, no explicit inventory numbers, commercially sensitive figures or identifiable information will be disclosed. By using the Platform, all participants acknowledge and consent to Sygence's use of such inventory threshold signals for network optimization purposes. Sygence maintains industry-standard security protocols but shall not be held liable for any business or operational decisions made by participants based on such notifications."
+    }
+  ]
+}

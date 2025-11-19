@@ -1,0 +1,21 @@
+{
+  "title": "E. Legal Basis for Processing Your Data",
+  "intro": "We process your Customer Information and any personal data we receive, collect or maintain about you based on lawful grounds, as permitted under applicable data protection laws. These lawful bases include the following:",
+  "list": [
+    "Your Consent: Where you have provided your consent, including through this Privacy Policy, Terms and Conditions of Use, our Website or Cookie Policy.",
+    "Performance of a Contract: Where the processing is necessary to fulfill our contractual obligations to you, such as those under the Network Agreements.",
+    "Legal Obligations: Where we are required to process your data in order to comply with applicable laws and regulations.",
+    "Vital Interests: Where processing is necessary to protect the vital interests of you or another natural person, such as in emergency situations.",
+    {
+      "heading": "Legitimate Interests: Where processing is necessary for our legitimate business interests, provided these interests are not overridden by your rights and freedoms. These interests include, but are not limited to:",
+      "subpoints": [
+        "Ensuring security and preventing fraud or other threats;",
+        "Conducting business operations, including quality control and customer support;",
+        "Managing corporate transactions;",
+        "Improving our services and understanding customer needs."
+      ]
+    }
+  ],
+  "note": "Where we rely on a legal basis other than consent, this Privacy Policy serves to inform you transparently about how and why your personal data is processed, in line with fair and lawful processing expectations based on our relationship with you.",
+  "footer": "Please note that your consent, once provided, is essential for the continued and uninterrupted access to the services and functionalities of the Network. Withdrawal of consent may not be supported where such consent is foundational to the provision of services or for the ongoing operation of the platform."
+}

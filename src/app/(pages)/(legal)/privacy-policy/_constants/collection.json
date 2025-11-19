@@ -1,0 +1,116 @@
+{
+  "title": "C. Collection of Information",
+  "sections": [
+    {
+      "subtitle": "1. In the course of carrying out its various functions and activities, Sygence collects information from individuals & third parties and generates a wide range of information which is stored on our Network.",
+      "body": "This information can take many different forms, such as corporate records, financial records, legal records, contracts, letters received from third parties, personnel/employees records, invoices, completed application forms, contact lists, email communications and attachments, photos, etc. Sygence collects information in order to provide and continually improve its products & services. The information may be collected online or offline. Regardless of the collection method, the same privacy protection shall apply to all data/information including personal information."
+    },
+    {
+      "subtitle": "2. We collect personal information from you in a variety of ways when you interact with us through our services, such as:",
+      "list": [
+        "Installing, accessing or using our Services",
+        "Creating an account on our Services",
+        "Requesting customer service or contacting us",
+        "Conducting a transaction where we collect personal information, including when required by law and regulations",
+        "Submitting a testimonial, rating, or review or other user-generated content",
+        "Otherwise submitting personal information to us along with any related content of the communication"
+      ]
+    },
+    {
+      "subtitle": "3. Types of information collected by Sygence:",
+      "table": {
+        "headers": ["Source of Information", "Nature of Information Collected"],
+        "rows": [
+          {
+            "source": "Users/Customers",
+            "details": [
+              "Personal identifying information such as name, address and phone numbers; email id, age, personal description, profile photograph etc. & delivery address.",
+              "Payment information.",
+              "Location information.",
+              "Device information (if you provided).",
+              "IP address.",
+              "Name, addresses & phone numbers, e-mail IDs of contacts.",
+              "Content of reviews and e-mails to us.",
+              "Voice recordings when you call us.",
+              "Images, videos, and other content collected or stored in connection with our Services.",
+              "Login detail, device log files etc., while using our Network."
+            ]
+          },
+          {
+            "source": "Business Partners",
+            "details": [
+              "Personal identifying information such as name, address and phone numbers; email id, age, personal description, profile photograph, marital status etc.",
+              "Payment Information.",
+              "Location information.",
+              "Device information (if you provided).",
+              "IP address.",
+              "Name, addresses & phone numbers, e-mail IDs of contacts.",
+              "Content of reviews and e-mails to us.",
+              "Voice recordings when you call us.",
+              "Images, videos, and other content collected or stored in connection with our Services.",
+              "Information and officially valid documents (KYC) regarding identity and address information.",
+              "Credit usage.",
+              "Corporate and financial information.",
+              "Device log files and other information."
+            ]
+          },
+          {
+            "source": "Automatic Information",
+            "details": [
+              "IP address of your device connected to our Network.",
+              "Login details, e-mail address, and passwords; device log files etc.",
+              "Location of device/computer.",
+              "Content interaction information, downloads, streaming of data, network details etc.",
+              "Device readings, application usage, connectivity data, and any errors or event failures.",
+              "Our Services metrics, any technical errors, interactions with our service tools or features, settings preferences and backup information, location of device, file name, dates, time, etc. while using our service.",
+              "Content use history.",
+              "URLs including date & time; products & contents viewed or searched for; page response times, download errors, length of visits to certain pages, and page interaction information etc.",
+              "Phone numbers used to call us.",
+              "Images/videos while interacting with our Network.",
+              "Device identifiers, cookies, browsing history, usage history, and other technical information."
+            ]
+          },
+          {
+            "source": "Information from Other Sources",
+            "details": [
+              "Updated delivery and address information from our carriers or third parties.",
+              "Account information, purchase or redeeming information and page-view information from some merchants/partners for which we provide technical services.",
+              "Information about your interactions with partners while interacting via Sygence channel.",
+              "Search results and links.",
+              "Internet-connected devices details."
+            ]
+          },
+          {
+            "source": "Officials/Employees/Resellers etc.",
+            "details": [
+              "Personal identifying information such as name, address and phone numbers; email id, age, personal description, profile photograph etc.",
+              "Educational information.",
+              "Information and officially valid documents (KYC) regarding identity and address information.",
+              "Payment information.",
+              "Location information.",
+              "Device information (if you provided).",
+              "IP address.",
+              "Content of reviews and e-mails to us.",
+              "Voice recordings when you call us.",
+              "Login detail, device log files etc., while using our Network."
+            ]
+          },
+          {
+            "source": "Third Party Information",
+            "details": [
+              "Corporate & financial information about our co-branded partners, delivery partners, and other third parties associated with us.",
+              "CIN Number.",
+              "PAN Number.",
+              "GST Number etc.",
+              "Location information.",
+              "Device information (if you provided).",
+              "IP address.",
+              "Internet-connected devices details.",
+              "Identity and address information etc."
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

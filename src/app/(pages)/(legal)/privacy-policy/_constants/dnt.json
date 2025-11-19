@@ -1,0 +1,8 @@
+{
+  "title": "P. Do Not Track (DNT) Requests",
+  "content": [
+    "Certain internet browsers provide a \"Do Not Track\" (DNT) feature, which sends a signal to websites indicating that you prefer not to be tracked.",
+    "Currently, there is no standard that governs what websites can or should do when they receive these signals.",
+    "As such, we do not take any specific action in response to these signals at this time."
+  ]
+}
