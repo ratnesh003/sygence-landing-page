@@ -8,7 +8,7 @@ import Image from "next/image";
 const Advisors = () => {
   return (
     <Border>
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center" id="advisors">
         <h1 className="text-5xl font-medium tracking-tight mb-6">{advisors.title}</h1>
         <p className="w-3xl text-center tracking-wide mb-20">{advisors.description}</p>
         {advisors.cards.map((content, idx) => (

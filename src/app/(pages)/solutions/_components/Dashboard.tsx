@@ -26,7 +26,7 @@ const NexNetDashboard: React.FC<NexNetDashboardProps> = ({ data }) => {
 
   return (
     <Border>
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto" id="nexnet">
         {/* Header */}
         <header className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">

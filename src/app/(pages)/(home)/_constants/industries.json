@@ -7,7 +7,7 @@
       "challenges": "The telecom industry struggles with fragmented ecosystems, siloed data and constant disruptions from shortages, port delays and compliance demands - slowing rollouts and driving up costs.",
       "solution": "Our platform unites OEMs, contractors and regulators into a shared view, eliminating blind spots and delays. Information flows instantly, enabling teams to act together in real time. It scales seamlessly without costly overhauls and ensures disruptions are detected early and resolved before impacting service.",
       "impact": "Faster rollouts, lower disruption costs and stronger compliance  building both efficiency and trust across networks.",
-      "image": "/assets/home/pharma-industries.svg"
+      "image": "/assets/home/telecom-industries.svg"
     },
     {
       "header": "Pharma",
@@ -21,28 +21,28 @@
       "challenges": "Retailers face thin margins, volatile demand, complex supplier networks and compliance pressures - often leading to waste, stockouts and lost sales.",
       "solution": "Our platform provides end-to-end visibility, from container to shelf, while connecting suppliers, logistics and stores into one agile network. Shortages or surges trigger instant adjustments. It overlays existing systems, scales quickly and gives leaders foresight to anticipate volatility and act early.",
       "impact": "Preserved sales, reduced waste and rapid ROI with measurable financial gains in the first year.",
-      "image": "/assets/home/pharma-industries.svg"
+      "image": "/assets/home/retail-industries.svg"
     },
     {
       "header": "Automotive",
       "challenges": "Automakers are navigating semiconductor shortages, the EV transition and multi-tier supplier dependencies, while managing locked capital and rising costs.",
       "solution": "Our platform aligns OEMs and suppliers into a single real-time network. It reallocates supply when disruptions strike, adapts seamlessly to new EV and software-driven models and equips leaders with foresight to prevent bottlenecks.",
       "impact": "Billions unlocked in revenue, optimized inventory, freed-up capital and significant margin expansion.",
-      "image": "/assets/home/pharma-industries.svg"
+      "image": "/assets/home/automotive-industries.svg"
     },
     {
       "header": "Consumer Packaged Goods",
       "challenges": "CPG companies face long onboarding cycles, volatile demand and compliance pressures, resulting in delays, inefficiencies and missed opportunities.",
       "solution": "By connecting suppliers, plants and distributors in one ecosystem, onboarding times shrink dramatically. The platform adapts quickly to SKU growth, resolves sourcing and demand issues instantly and provides predictive insights to stay ahead of volatility.",
       "impact": "Faster onboarding, quicker launches, millions unlocked in working capital and measurable revenue uplift.",
-      "image": "/assets/home/pharma-industries.svg"
+      "image": "/assets/home/consumer-industries.svg"
     },
     {
       "header": "Food & Beverages",
       "challenges": "The food and beverage industry faces volatile demand, ingredient shortages, compliance risks and slow supplier onboarding.",
       "solution": "Our platform creates farm-to-fork transparency, linking farmers, plants, logistics and retailers in real time. It adapts to launches, promotions and recalls while resolving risks before they escalate. Predictive insights and instant workflows give businesses the agility to pivot quickly.",
       "impact": "Improved forecast accuracy, reduced onboarding from weeks to days, lower costs and recall responses in minutes instead of days.",
-      "image": "/assets/home/pharma-industries.svg"
+      "image": "/assets/home/food-industries.svg"
     }
   ]
 }

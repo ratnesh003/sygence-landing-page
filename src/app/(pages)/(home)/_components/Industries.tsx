@@ -11,7 +11,7 @@ const Dashboard = () => {
   return (
     <Border>
       {/* Header Section */}
-      <div className="w-full flex flex-col items-center">
+      <div className="w-full flex flex-col items-center" id="industries">
         <div className="text-center max-w-4xl mb-20">
           <h1 className="text-5xl font-semibold tracking-tight mb-6">
             {industries.title}

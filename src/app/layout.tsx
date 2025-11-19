@@ -5,6 +5,8 @@ import Navbar from "@/components/Navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
+import { Toaster } from "sonner";
+import CookieBanner from "@/components/CookieBanner";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -39,8 +41,10 @@ export default function RootLayout({
         >
           <Navbar />
           {children}
+          <Toaster richColors position="bottom-right" />
           <CallToAction />
           <Footer />
+          <CookieBanner />
         </ThemeProvider>
       </body>
     </html>

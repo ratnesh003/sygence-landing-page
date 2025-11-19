@@ -1,8 +1,34 @@
 import React from 'react'
 
+import Border from '@/components/Border'
+import { resources } from '../_constants'
+import Image from 'next/image'
+import Link from 'next/link'
+
 const Resources = () => {
   return (
-    <div>Resources</div>
+    <Border>
+      <h1 className='text-5xl tracking-tight font-medium mb-6 w-full text-center' id='resources'>{resources.title}</h1>
+      <p className='w-full text-center tracking-tighter mb-20'>{resources.description}</p>
+      <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8'>
+        {resources.cards.map((content, idx) => (
+          <div key={idx + 1} className='w-full'>
+            <Image 
+              src={content.image}
+              height={100}
+              width={100}
+              alt={`${content.header} Image`}
+              className='object-contain w-full mb-6'
+            />
+            <h1 className='text-2xl tracking-tighter font-medium line-clamp-2 mb-2'>{content.header}</h1>
+            <p className='tracking-tighter line-clamp-1 mb-4'>{content.content}</p>
+            <Link href={content.link} target='_blank' className='text-accent-foreground tracking-tighter font-medium flex flex-row gap-2'>
+              <span>Explore</span> <span>&gt;</span>
+            </Link>
+          </div>
+        ))}
+      </div>
+    </Border>
   )
 }
 

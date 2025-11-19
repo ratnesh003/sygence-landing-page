@@ -10,7 +10,7 @@ const Leadership = () => {
   return (
     <React.Fragment>
       <Border>
-        <h1 className="mb-20 w-full text-center text-5xl tracking-tight font-medium">
+        <h1 className="mb-20 w-full text-center text-5xl tracking-tight font-medium" id="founders">
           {leadership.title}
         </h1>
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-20 gap-y-40">
@@ -35,7 +35,7 @@ const Leadership = () => {
             <div className="flex items-center justify-start gap-5 h-6">
               {leadership.ceo.socials.map((content, idx) => (
                 <Link
-                  href={content.link}
+                  href={idx == 1 ? `mailto:${content.link}` : content.link}
                   key={idx + 1}
                   className="w-fit h-full"
                 >
@@ -62,7 +62,7 @@ const Leadership = () => {
             <div className="flex items-center justify-start gap-5 h-6">
               {leadership.coo.socials.map((content, idx) => (
                 <Link
-                  href={content.link}
+                  href={idx == 1 ? `mailto:${content.link}` : content.link}
                   key={idx + 1}
                   className="w-fit h-full"
                   target="_blank"

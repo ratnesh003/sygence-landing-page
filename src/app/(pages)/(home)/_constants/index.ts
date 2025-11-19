@@ -6,6 +6,7 @@ import industries from "./industries.json"
 import vision from "./vision.json"
 import impact from "./impact.json"
 import partnerships from "./partnership.json"
+import resources from "./resources.json"
 
 export {
     hero,
@@ -15,5 +16,6 @@ export {
     industries,
     vision,
     impact,
-    partnerships
+    partnerships,
+    resources
 }
