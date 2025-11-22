@@ -2,6 +2,7 @@
 
 import * as React from "react";
 
+import axios from "axios";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Controller, useForm } from "react-hook-form";
 import { toast } from "sonner";
@@ -70,25 +71,39 @@ const CareersForm = () => {
     },
   });
 
-  function onSubmit(data: z.infer<typeof formSchema>) {
-    toast("You submitted the following values:", {
-      description: (
-        <pre className="z-20 bg-code text-code-foreground mt-2 w-[320px] overflow-x-auto rounded-md p-4">
-          <code>{JSON.stringify(data, null, 2)}</code>
-        </pre>
-      ),
-      position: "bottom-right",
-      classNames: {
-        content: "flex flex-col gap-2",
-      },
-      style: {
-        "--border-radius": "calc(var(--radius)  + 4px)",
-      } as React.CSSProperties,
+  async function onSubmit(data: z.infer<typeof formSchema>) {
+    const formData = new FormData();
+
+    // Add all text fields
+    Object.entries(data).forEach(([key, value]) => {
+      if (key !== "cv") {
+        formData.append(key, value as any);
+      }
     });
 
-    // 👇 Reset form here
+    // Add file if present
+    if (data.cv instanceof File) {
+      formData.append("cv", data.cv);
+    }
+
+    // Add form type
+    formData.append("formType", "careers");
+
+    await toast.promise(
+      axios.post("/api/send-form", formData, {
+        headers: { "Content-Type": "multipart/form-data" },
+      }),
+
+      {
+        loading: "Submitting your application...",
+        success: "Application submitted successfully!",
+        error: "Failed to submit application. Please try again.",
+      }
+    );
+
     form.reset();
   }
+
 
   return (
     <Border className="bg-accent-foreground text-primary">

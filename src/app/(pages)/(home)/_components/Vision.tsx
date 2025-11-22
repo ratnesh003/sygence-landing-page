@@ -28,7 +28,7 @@ const Vision = () => {
             {/* Tangible Outcomes */}
             <div className="rounded-2xl border border-blue-100 p-8 bg-white">
               <div className="flex items-start gap-4 mb-4">
-                <span className="text-3xl text-blue-600">💡</span>
+                {/* <span className="text-3xl text-blue-600">💡</span> */}
                 <h3 className="text-2xl font-semibold">{outcomes.title}</h3>
               </div>
               <ul className="list-disc list-inside text-gray-700 space-y-2">
@@ -51,7 +51,7 @@ const Vision = () => {
               />
             </div>
             <div className="flex items-start gap-4 mb-4 p-8">
-              <span className="text-3xl text-blue-600">📊</span>
+              {/* <span className="text-3xl text-blue-600">📊</span> */}
               <h3 className="text-2xl font-semibold">{value.title}</h3>
             </div>
             <ul className="list-disc list-inside text-gray-700 space-y-2">

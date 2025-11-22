@@ -24,6 +24,7 @@ import {
 } from "./_components";
 
 import Border from "@/components/Border";
+import ContactInfo from "@/components/ContactInfo";
 
 const PrivacyPolicy = () => {
   return (
@@ -48,6 +49,7 @@ const PrivacyPolicy = () => {
       <FurtherInformation />
       <PrivacyChanges />
       <ContactCompany />
+      <ContactInfo />
     </Border>
   );
 };

@@ -1,6 +1,7 @@
 "use client";
 
 import * as React from "react";
+import axios from "axios";
 import Link from "next/link";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Controller, useForm } from "react-hook-form";
@@ -63,21 +64,33 @@ export default function ContactForm() {
     },
   });
 
-  function onSubmit(data: z.infer<typeof formSchema>) {
-    toast("You submitted the following values:", {
-      description: (
-        <pre className="z-20 bg-code text-code-foreground mt-2 w-[320px] overflow-x-auto rounded-md p-4">
-          <code>{JSON.stringify(data, null, 2)}</code>
-        </pre>
-      ),
-      position: "bottom-right",
-      classNames: {
-        content: "flex flex-col gap-2",
-      },
+  async function onSubmit(data: z.infer<typeof formSchema>) {
+    const formData = new FormData();
+
+    // Append all dynamic fields
+    Object.entries(data).forEach(([key, value]) => {
+      formData.append(key, value as any);
     });
+
+    // Add form type
+    formData.append("formType", "contact");
+
+    // Send mail using axios + toast.promise
+    await toast.promise(
+      axios.post("/api/send-form", formData, {
+        headers: { "Content-Type": "multipart/form-data" },
+      }),
+
+      {
+        loading: "Sending your inquiry...",
+        success: "Message sent successfully!",
+        error: "Failed to send message. Please try again.",
+      }
+    );
 
     form.reset();
   }
+
 
   return (
     <Border>

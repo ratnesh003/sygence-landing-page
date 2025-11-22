@@ -111,7 +111,7 @@ const AnimatedNetworkBackground = () => {
       className="absolute top-16 left-0 w-full h-screen -z-10"
       style={{
         background:
-          "radial-gradient(ellipse at bottom, #020024 0%, #090979 50%, #000000 100%)",
+          "radial-gradient(ellipse at bottom, #1f93d6 0%, #090979 50%, #000000 100%)",
       }}
     />
   );
