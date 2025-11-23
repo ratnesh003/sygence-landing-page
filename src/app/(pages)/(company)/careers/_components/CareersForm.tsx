@@ -129,7 +129,7 @@ const CareersForm = () => {
                       </FieldLabel>
                       <Input
                         {...field}
-                        placeholder="John Deo"
+                        placeholder=""
                         autoComplete="off"
                       />
                       {fieldState.invalid && (
@@ -150,7 +150,7 @@ const CareersForm = () => {
                       </FieldLabel>
                       <Input
                         {...field}
-                        placeholder="johndeo@gmail.com"
+                        placeholder=""
                         autoComplete="off"
                       />
                       {fieldState.invalid && (
@@ -170,7 +170,7 @@ const CareersForm = () => {
                     <FieldLabel>Linkedin / Portfolio</FieldLabel>
                     <Input
                       {...field}
-                      placeholder="@johndeo"
+                      placeholder=""
                       autoComplete="off"
                     />
                   </Field>

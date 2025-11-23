@@ -55,13 +55,13 @@ const Footer = () => {
         </p>
         <nav className="flex items-center justify-center gap-6">
           <Link href={"/privacy-policy"}>
-            <p className="text-sm underline hover:text-accent-foreground">
-              privacy policy
+            <p className="text-sm underline hover:text-accent-foreground ">
+              Privacy Policy
             </p>
           </Link>
           <Link href={"/terms-and-conditions"}>
-            <p className="text-sm underline hover:text-accent-foreground">
-              terms & conditions
+            <p className="text-sm underline hover:text-accent-foreground ">
+              Terms & Conditions
             </p>
           </Link>
           <CookiesDialog />

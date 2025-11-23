@@ -127,7 +127,7 @@ export default function ContactForm() {
                       </FieldLabel>
                       <Input
                         {...field}
-                        placeholder="Pedro"
+                        placeholder=""
                         className="placeholder:text-foreground/80"
                       />
                       {fieldState.invalid && (
@@ -148,7 +148,7 @@ export default function ContactForm() {
                       </FieldLabel>
                       <Input
                         {...field}
-                        placeholder="Duarte"
+                        placeholder=""
                         className="placeholder:text-foreground/80"
                       />
                       {fieldState.invalid && (
@@ -170,7 +170,7 @@ export default function ContactForm() {
                     </FieldLabel>
                     <Input
                       {...field}
-                      placeholder="peduarte@gmail.com"
+                      placeholder=""
                       className="placeholder:text-foreground/80"
                     />
                     {fieldState.invalid && (
@@ -191,7 +191,7 @@ export default function ContactForm() {
                     </FieldLabel>
                     <Input
                       {...field}
-                      placeholder="8433333527"
+                      placeholder=""
                       className="placeholder:text-foreground/80"
                     />
                     {fieldState.invalid && (
@@ -210,7 +210,7 @@ export default function ContactForm() {
                     <FieldLabel>Company Name</FieldLabel>
                     <Input
                       {...field}
-                      placeholder="Sygence"
+                      placeholder=""
                       className="placeholder:text-foreground/80"
                     />
                   </Field>
