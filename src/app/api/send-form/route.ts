@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
@@ -32,10 +34,13 @@ export async function POST(req: Request) {
 
     const subject = subjects[formType] || subjects.general;
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     let attachments: any[] = [];
     if (file) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const arrayBuffer = await (file as any)?.arrayBuffer();
       attachments.push({
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         filename: (file as any)?.name || "attachment.pdf",
         content: Buffer.from(arrayBuffer),
       });
@@ -77,8 +82,11 @@ export async function POST(req: Request) {
     });
 
     return NextResponse.json({ success: true, response });
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
     console.error(error);
     return NextResponse.json({ success: false, message: error.message }, { status: 500 });
   }
 }
+
+/* eslint-enable @typescript-eslint/no-explicit-any */

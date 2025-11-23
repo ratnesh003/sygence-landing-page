@@ -77,7 +77,7 @@ const CareersForm = () => {
     // Add all text fields
     Object.entries(data).forEach(([key, value]) => {
       if (key !== "cv") {
-        formData.append(key, value as any);
+        formData.append(key, value as string);
       }
     });
 

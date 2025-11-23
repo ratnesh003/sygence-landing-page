@@ -67,9 +67,10 @@ export default function ContactForm() {
   async function onSubmit(data: z.infer<typeof formSchema>) {
     const formData = new FormData();
 
-    // Append all dynamic fields
+    // Append all dynamic fields (convert values to strings because FormData accepts string | Blob)
     Object.entries(data).forEach(([key, value]) => {
-      formData.append(key, value as any);
+      // Convert any value (including boolean consent) to a string before appending
+      formData.append(key, String(value));
     });
 
     // Add form type
