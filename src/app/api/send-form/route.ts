@@ -35,7 +35,7 @@ export async function POST(req: Request) {
     const subject = subjects[formType] || subjects.general;
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    let attachments: any[] = [];
+    const attachments: any[] = [];
     if (file) {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const arrayBuffer = await (file as any)?.arrayBuffer();
