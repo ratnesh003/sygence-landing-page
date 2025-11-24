@@ -1,5 +1,6 @@
 "use client";
 import Border from "@/components/Border";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import React, { useState } from "react";
 
 export interface DeliverableCard {
@@ -35,9 +36,9 @@ const NexNetDashboard: React.FC<NexNetDashboardProps> = ({ data }) => {
           <p className="mt-4 text-gray-600 text-lg">{description}</p>
         </header>
 
-        <div className="flex gap-12">
+        <div className="flex flex-col md:flex-row gap-12">
           {/* Sidebar Navigation */}
-          <nav className="w-60 flex-shrink-0 border-r border-gray-200 pr-4">
+          <nav className="hidden md:block w-60 flex-shrink-0 border-r border-gray-200 pr-4">
             <ul className="space-y-4">
               {cards.map((card, index) => (
                 <li key={index}>
@@ -63,6 +64,26 @@ const NexNetDashboard: React.FC<NexNetDashboardProps> = ({ data }) => {
               ))}
             </ul>
           </nav>
+
+          {/* Mobile view navigation bar */}
+          <div className="w-full md:hidden mb-6">
+            <Select
+              value={activeIndex.toString()}
+              onValueChange={(value) => setActiveIndex(Number(value))}
+            >
+              <SelectTrigger className="w-full text-primary-foreground [&_svg:not([class*='text-'])]:text-primary-foreground">
+                <SelectValue placeholder={cards[activeIndex].nav} />
+              </SelectTrigger>
+
+              <SelectContent>
+                {cards.map((card, index) => (
+                  <SelectItem value={index.toString()} key={index}>
+                    {card.nav}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
 
           {/* Main Content */}
           <article className="flex-1">

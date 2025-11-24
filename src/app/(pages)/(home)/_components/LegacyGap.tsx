@@ -22,12 +22,12 @@ const LegacyGap = () => {
   return (
     <React.Fragment>
       <Border className="bg-accent">
-        <h1 className="text-6xl font-medium tracking-tighter text-center mb-20">{title}</h1>
-        <div className="flex flex-row justify-center items-stretch gap-8">
+        <h1 className="text-4xl md:text-5xl xl:text-6xl font-medium tracking-tighter text-center mb-20">{title}</h1>
+        <div className="flex flex-col lg:flex-row justify-center items-stretch gap-8">
           {cards.map((card, id) => (
-            <Card key={id + 1} className="w-96 hover:scale-105 hover:ring-[1px] hover:ring-primary-foreground h-auto">
+            <Card key={id + 1} className="w-full lg:w-96 hover:scale-105 hover:ring-[1px] hover:ring-primary-foreground h-auto">
               <CardHeader>
-                <CardTitle className="font-mono">{card.header}</CardTitle>
+                <CardTitle className="font-mono font-normal text-xl lg:text-3xl -mb-6">{card.header}</CardTitle>
               </CardHeader>
                 <CardContent>{card.content}</CardContent>
             </Card>

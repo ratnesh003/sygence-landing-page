@@ -10,17 +10,29 @@
       "Faster growth",
       "Smarter execution"
     ],
-    "icon": ""
+    "icon": "/assets/home/outcomes-icon.svg"
   },
   "value": {
     "title": "Value for the C-Suite",
     "list": [
-      "CEO → Growth through network scale & resilience.",
-      "COO → Agility across multiple tiers.",
-      "CFO → Optimized capital, EBIT, and compliance.",
-      "CPO → Partner discovery & ESG risk management built in."
+      {
+        "head": "CEO →",
+        "content": " Growth through network scale & resilience."
+      },
+      {
+        "head": "COO →",
+        "content": " Agility across multiple tiers."
+      },
+      {
+        "head": "CFO →",
+        "content": " Optimized capital, EBIT, and compliance."
+      },
+      {
+        "head": "CPO →",
+        "content": " Partner discovery & ESG risk management built in."
+      }
     ],
-    "icon": "",
+    "icon": "/assets/home/value-icon.svg",
     "image": "/assets/home/csuit-bg.svg"
   }
 }

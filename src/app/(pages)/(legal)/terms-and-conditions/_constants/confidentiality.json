@@ -1,0 +1,20 @@
+{
+  "title": "8. CONFIDENTIALITY",
+  "content": [
+    "8.1 Each Party agrees that it shall:",
+    "a) Keep confidential all Confidential Information; b) Not disclose Confidential Information to any third party; c) Use Confidential Information only for purposes of this Agreement; d) Protect Confidential Information with reasonable security measures; e) Return or destroy Confidential Information upon termination.",
+    "8.2 The confidentiality obligations shall survive the termination of this Agreement for a period of three (3) years.",
+    "\"Confidential Information\" means any and all information or data of a confidential nature, including application, network configuration, documents, accounts, business plans, products, promotional and marketing plans and processes, and any other information in whole or in part of either Party.",
+    "1. During the term of this Agreement and for three (3) years thereafter, each party shall treat as confidential all the Confidential Information of the other Party; shall not use such Confidential Information except to exercise its rights and perform its obligations under this Agreement and shall not disclose such Confidential Information to any Third Party.",
+    "2. Without limiting the foregoing, each Party shall use at least the same degree of care, but not less than a reasonable degree of care, it uses to prevent the disclosure of its own confidential information to prevent the disclosure of Confidential Information of the other Party.",
+    "3. Each party shall promptly notify the other party of any actual or suspected misuse or unauthorized disclosure of the other Party’s Confidential Information.",
+    "4. Neither party shall reverse engineer, disassemble or decompile any prototypes, software or other tangible objects that embody the other Party’s Confidential Information and which are provided to the Party hereunder.",
+    "5. Each party may disclose Confidential Information of the other party on a need-to-know basis to its contractors who are subject to confidentiality agreements requiring them to maintain such information in confidence and use it only to facilitate the performance of their services on behalf of the Receiving Party.",
+    "Exceptions – Confidential Information excludes information that:",
+    "1. Is known publicly at the time of disclosure or becomes known publicly after disclosure through no fault of the Receiving Party;",
+    "2. Is known to the Receiving Party without restriction at the time of disclosure or becomes known to the Receiving Party without restriction from a source other than the Disclosing Party not bound by confidentiality obligations;",
+    "3. Is independently developed by the Receiving Party without use of the Confidential Information as demonstrated by written records.",
+    "The Receiving Party may disclose Confidential Information to the extent such disclosure is required by law, regulatory authority, or court order, provided that reasonable efforts are made to notify the other Party prior to disclosure.",
+    "Each Party may disclose the existence of this Agreement to third parties with a need to know and under confidentiality obligations (e.g., accountants, lawyers, bankers, investors)."
+  ]
+}

@@ -15,12 +15,12 @@ const Hero = () => {
         <p className="text-primary text-center w-80 xl:w-2xl">{hero.subtitle}</p>
         <div className="flex justify-between bg-transparent items-center gap-4 m-4">
           <Link href={hero.ctaLink1}>
-            <Button variant={"default"}>
+            <Button variant={"default"} size={"lg"} className="text-black">
                 {hero.catText1}
             </Button>
           </Link>
           <Link href={hero.catLink2}>
-            <Button variant={"outline"}>
+            <Button variant={"blur"} size={"lg"}>
                 {hero.catText2}
             </Button>
           </Link>

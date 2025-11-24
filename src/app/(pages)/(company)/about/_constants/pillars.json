@@ -5,17 +5,20 @@
         {
             "header": "Network-native foundation",
             "content": "a single version of truth across all internal and partner transactions, enabling seamless execution, adaptability and resilience.",
-            "icon": ""
+            "icon": "/assets/company/about/one-icon.svg",
+            "width": 46
         },
         {
             "header": "Network-aware AI",
             "content": "accelerates processes, anticipates disruptions and prescribes actions to boost efficiency, capital performance and ESG outcomes.",
-            "icon": ""
+            "icon": "/assets/company/about/two-icon.svg",
+            "width": 59
         },
         {
             "header": "Zero integration overhead",
             "content": "deploys instantly with no middleware, custom APIs  or vendor lock-in.",
-            "icon": ""
+            "icon": "/assets/company/about/three-icon.svg",
+            "width": 62
         }
     ]
 }

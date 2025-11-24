@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { industries } from "../_constants"; // same structure as before
 import Border from "@/components/Border";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
 const Dashboard = () => {
   const [activeSector, setActiveSector] = useState(industries.cards[0]);
@@ -20,20 +21,46 @@ const Dashboard = () => {
         </div>
 
         {/* Horizontal Navigation */}
-        <div className="flex flex-wrap justify-center self-start gap-8 mt-10">
-          {industries.cards.map((sector, idx) => (
-            <button
-              key={idx}
-              className={`text-base font-medium ${
-                activeSector.header === sector.header
-                  ? "text-black border-b-2 border-black"
-                  : "text-gray-500 hover:text-black border-b-2 border-transparent"
-              } transition-all`}
-              onClick={() => setActiveSector(sector)}
-            >
-              {sector.header}
-            </button>
-          ))}
+        <div className="hidden md:block self-start">
+          <div className="flex flex-wrap justify-center gap-8 mt-10">
+            {industries.cards.map((sector, idx) => (
+              <button
+                key={idx}
+                className={`text-base font-medium ${
+                  activeSector.header === sector.header
+                    ? "text-black border-b-2 border-black"
+                    : "text-gray-500 hover:text-black border-b-2 border-transparent"
+                } transition-all`}
+                onClick={() => setActiveSector(sector)}
+              >
+                {sector.header}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Mobile view navigation bar */}
+        <div className="w-full lg:hidden mb-6">
+          <Select
+            value={activeSector.header}
+            onValueChange={(value) =>
+              setActiveSector(
+                industries.cards.find((c) => c.header === value) || industries.cards[0]
+              )
+            }
+          >
+            <SelectTrigger className="w-full text-primary-foreground [&_svg:not([class*='text-'])]:text-primary-foreground">
+              <SelectValue placeholder={activeSector.header} />
+            </SelectTrigger>
+
+            <SelectContent>
+              {industries.cards.map((card, index) => (
+                <SelectItem value={card.header} key={index}>
+                  {card.header}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
         </div>
 
         {/* Content Section */}

@@ -5,32 +5,32 @@
     {
       "header": "Single Source of Truth",
       "content": "NexNet creates one shared reality across suppliers, partners, and customers. From your supplier in Shenzhen to your planner in Chicago - everyone sees the same truth at the same time. No blind spots, no misalignment.",
-      "icon": ""
+      "icon": "/assets/home/ssot-icon.svg"
     },
     {
       "header": "Partner Connectivity",
       "content": "Signals flow instantly, and actions propagate seamlessly across every tier of the network. When a shipment is stuck, a supplier defaults, or compliance flags appear - the entire ecosystem sees it and responds in real time.",
-      "icon": ""
+      "icon": "/assets/home/pc-icon.svg"
     },
     {
       "header": "Future-Proof Scalability",
       "content": "Enterprises can’t afford costly rip-and-replace programs. NexNet layers over existing systems, allowing you to start small, expand fast, and adapt endlessly - scaling without disruption. Technology stays one step ahead of strategy, not the other way around.",
-      "icon": ""
+      "icon": "/assets/home/fps-icon.svg"
     },
     {
       "header": "Built-In Resilience",
       "content": "Built-In Resilience Most systems flag problems after the damage is done. NexNet orchestrates the response as disruption unfolds. Shipments re-route, demand reallocates and compliance adapts - before the P&L takes a hit.",
-      "icon": ""
+      "icon": "/assets/home/bir-icon.svg"
     },
     {
       "header": "Faster Time-to-Action",
       "content": "In today’s markets, speed wins. NexNet eliminates silos, emails and manual hand-offs - turning leadership intent into coordinated execution across the network in real time. Complexity becomes velocity.",
-      "icon": ""
+      "icon": "/assets/home/ftta-icon.svg"
     },
     {
       "header": "Decisions with Foresight",
       "content": "Executives don’t need more dashboards; they need foresight. NexNet translates signals into impact so leaders can move before competitors even see the risk. That’s anticipation turned into advantage",
-      "icon": ""
+      "icon": "/assets/home/dwf-icon.svg"
     }
   ]
 }

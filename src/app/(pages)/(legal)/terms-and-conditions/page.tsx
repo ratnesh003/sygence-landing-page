@@ -1,6 +1,6 @@
 import Border from '@/components/Border'
 import React from 'react'
-import { Acceptance, Agreement, Definitions, Ipr, Obligations, Privacy, Registration, Whereas } from './_components'
+import { Acceptance, Agreement, Confidentiality, Definitions, Fees, Ipr, Liability, Obligations, Privacy, Registration, Termination, Whereas } from './_components'
 
 const TermsAndConditions = () => {
   return (
@@ -13,6 +13,10 @@ const TermsAndConditions = () => {
       <Obligations />
       <Ipr />
       <Privacy />
+      <Fees />
+      <Confidentiality />
+      <Termination />
+      <Liability />
     </Border>
   )
 }

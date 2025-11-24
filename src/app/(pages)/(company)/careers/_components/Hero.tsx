@@ -3,26 +3,36 @@ import React from "react";
 
 import Border from "@/components/Border";
 import Image from "next/image";
+import { hero } from "../_constants";
 
 const Hero = () => {
   return (
-    <Border className="relative overflow-hidden py-20">
+    <Border className="relative overflow-hidden py-20 z-0">
       {/* TEXT CONTENT */}
-      <h1 className="relative z-10 text-7xl font-medium tracking-tighter w-3xl">
-        Help us build the future of enterprise networks.
+      <h1 className="relative z-10 text-4xl md:text-5xl xl:text-7xl font-medium tracking-tighter w-full xl:w-3xl">
+        {hero.title}
       </h1>
-      <p className="w-3xl mt-8 tracking-wider">
-        At Sygence, we’re reimagining how global supply networks operate. Our
-        mission is to build the network-native orchestration platform that will
-        power the next era of connected, intelligent enterprises. To achieve
-        this vision, we’re seeking individuals who are ready to make an impact
-        and grow with us.
+
+      <p className="relative z-10 w-full xl:w-3xl mt-8 tracking-wider">
+        {hero.description}
       </p>
 
-      {/* IMAGE - CENTER LEFT */}
-      <div className="absolute right-0 top-3/5 -translate-y-1/2 -z-10 w-[40%]">
+      {/* MOBILE IMAGE — BELOW TEXT */}
+      <div className="block lg:hidden mt-10 relative z-0">
         <Image
-          src={"/assets/company/careers/hero-banner.svg"}
+          src={hero.bgImage}
+          alt="Hero Banner"
+          width={100}
+          height={100}
+          className="w-full h-auto object-contain"
+          priority
+        />
+      </div>
+
+      {/* DESKTOP IMAGE — ABSOLUTE, BEHIND CONTENT */}
+      <div className="hidden lg:block absolute right-0 top-3/5 -translate-y-1/2 -z-10 w-[40%]">
+        <Image
+          src={hero.bgImage}
           alt="Hero Banner"
           width={100}
           height={100}

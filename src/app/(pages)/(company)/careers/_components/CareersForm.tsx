@@ -117,7 +117,7 @@ const CareersForm = () => {
         <div className="xl:w-1/2">
           <form id="form-rhf-demo" onSubmit={form.handleSubmit(onSubmit)}>
             <FieldGroup>
-              <div className="flex items-center justify-center gap-4">
+              <div className="flex flex-col md:flex-row items-center justify-center gap-4">
                 {/* NAME */}
                 <Controller
                   name="name"

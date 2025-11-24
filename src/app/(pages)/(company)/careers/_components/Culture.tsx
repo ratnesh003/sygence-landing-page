@@ -9,8 +9,8 @@ import { culture } from "../_constants";
 const Culture = () => {
   return (
     <Border>
-      <div className="flex items-center justify-center gap-x-20">
-        <div className="w-1/2 ">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-x-20">
+        <div className="w-full md:w-1/2 ">
           <Image
             src={culture.bannerImage}
             height={100}

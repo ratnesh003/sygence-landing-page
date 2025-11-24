@@ -15,13 +15,14 @@ import {
 
 import Logo from "./Logo";
 import { Button } from "./ui/button";
+import MobileNavbar from "./MobileNavbar";
 
 export default function Navbar() {
   return (
     <React.Fragment>
-      <nav className="sticky top-0 z-10 bg-primary flex justify-between items-center px-16 py-[14px]">
+      <nav className="sticky top-0 z-10 bg-primary flex justify-between items-center px-5 lg:px-16 py-[14px]">
         <Logo />
-        <NavigationMenu viewport={false}>
+        <NavigationMenu viewport={false} className="hidden lg:block">
           <NavigationMenuList>
             <NavigationMenuItem>
               <NavigationMenuLink
@@ -74,6 +75,7 @@ export default function Navbar() {
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
+        <MobileNavbar />
       </nav>
     </React.Fragment>
   );

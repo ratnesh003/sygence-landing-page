@@ -27,11 +27,17 @@ const Vision = () => {
 
             {/* Tangible Outcomes */}
             <div className="rounded-2xl border border-blue-100 p-8 bg-white">
-              <div className="flex items-start gap-4 mb-4">
-                {/* <span className="text-3xl text-blue-600">💡</span> */}
+              <div className="flex flex-col items-start gap-4 mb-4">
+                <Image
+                  src={outcomes.icon}
+                  height={48}
+                  width={48}
+                  alt={`${outcomes.title} image`}
+                  className=""
+                />
                 <h3 className="text-2xl font-semibold">{outcomes.title}</h3>
               </div>
-              <ul className="list-disc list-inside text-gray-700 space-y-2">
+              <ul className="list-disc list-inside text-gray-700 space-y-0">
                 {outcomes.list.map((item, idx) => (
                   <li key={idx}>{item}</li>
                 ))}
@@ -50,13 +56,19 @@ const Vision = () => {
                 className="object-cover w-full h-full"
               />
             </div>
-            <div className="flex items-start gap-4 mb-4 p-8">
-              {/* <span className="text-3xl text-blue-600">📊</span> */}
-              <h3 className="text-2xl font-semibold">{value.title}</h3>
+            <div className="flex flex-col items-start gap-4 p-8">
+              <Image
+                src={value.icon}
+                height={48}
+                width={48}
+                alt={`${value.title} image`}
+                className=""
+              />
+              <h3 className="text-5xl font-semibold">{value.title}</h3>
             </div>
-            <ul className="list-disc list-inside text-gray-700 space-y-2">
+            <ul className="list-disc list-inside text-gray-700 space-y-0 p-8 pt-0">
               {value.list.map((item, idx) => (
-                <li key={idx}>{item}</li>
+                <li key={idx}><b>{item.head}</b>{item.content}</li>
               ))}
             </ul>
           </div>
