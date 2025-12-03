@@ -27,7 +27,7 @@ const Pillars = () => {
                   className="absolute -top-10 -left-7 -z-10"
                 />
 
-                <Card className="relative w-80 lg:w-96 h-full flex flex-col hover:scale-105 hover:ring-[1px] hover:ring-primary-foreground">
+                <Card className="relative w-80 lg:w-96 h-full flex flex-col hover:scale-105 hover:ring-[1px] hover:ring-[#60B4FA]/30">
                   <CardHeader>
                     <CardTitle className="font-mono font-normal text-xl lg:text-3xl -mb-6">
                       {card.header}

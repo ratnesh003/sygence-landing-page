@@ -10,11 +10,11 @@ const Advantages = () => {
   return (
     <Border className='bg-accent'>
       <div className='flex flex-col items-center justify-center'>
-        <h1 className='text-5xl tracking-tight font-medium text-center'>{advantages.title}</h1>
+        <h1 className='text-4xl md:text-5xl tracking-tight font-medium text-center'>{advantages.title}</h1>
         <p className='mt-[30px] mb-[80px] text-center'>{advantages.description}</p>
         <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8'>
           {advantages.cards.map((card, idx) => (
-            <Card key={idx + 1} className='w-full hover:scale-105 hover:ring-1 hover:ring-accent-foreground'>
+            <Card key={idx + 1} className='w-full hover:scale-105 hover:ring-1 hover:ring-[#60B4FA]/30'>
               <CardHeader>
                 <Image
                   src={card.icon}

@@ -1,7 +1,8 @@
 {
   "title": "R. Further Information",
   "content": [
-    "The Company is the sole owner and operator of the Network. Should you have any questions regarding this Privacy Policy or our collection and use of your customer information, please contact us at support@sygence.one.",
+    "The Company is the sole owner and operator of the Network. Should you have any questions regarding this Privacy Policy or our collection and use of your customer information, please contact us at",
     "If you believe any information we hold about you is inaccurate or incomplete, please reach out to us for correction."
-  ]
+  ],
+  "mail": "support@sygence.one"
 }

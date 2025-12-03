@@ -1,7 +1,6 @@
 {
   "title": "Q. Children's Privacy",
-  "content": [
-    "We do not knowingly collect personal information from individuals under the age of 18, as our website is not intended for use by minors.",
-    "If you believe that we have inadvertently collected such information, please contact us at support@sygence.one."
-  ]
+  "content":
+    "We do not knowingly collect personal information from individuals under the age of 18, as our website is not intended for use by minors. If you believe that we have inadvertently collected such information, please contact us at",
+  "mail" : "support@sygence.one"
 }

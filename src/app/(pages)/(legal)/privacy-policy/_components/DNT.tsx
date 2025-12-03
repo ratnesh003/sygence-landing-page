@@ -4,10 +4,10 @@ import { dnt } from "../_constants";
 const DNT = () => {
   return (
     <section>
-      <h2>{dnt.title}</h2>
+      <h2 className="text-2xl font-semibold tracking-tight my-6">{dnt.title}</h2>
 
       {dnt.content.map((line, index) => (
-        <p key={index}>{line}</p>
+        <p className="inline" key={index}>{line}</p>
       ))}
     </section>
   );

@@ -13,7 +13,7 @@ const Vision = () => {
       <div className="w-full flex flex-col items-center">
         {/* Header */}
         <div className="text-center max-w-4xl mb-16">
-          <h1 className="text-5xl font-semibold tracking-tight">{title}</h1>
+          <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">{title}</h1>
           <p className="text-gray-600 text-lg mt-3">{description}</p>
         </div>
 
@@ -35,7 +35,7 @@ const Vision = () => {
                   alt={`${outcomes.title} image`}
                   className=""
                 />
-                <h3 className="text-2xl font-semibold">{outcomes.title}</h3>
+                <h3 className="text-lg md:text-2xl font-semibold">{outcomes.title}</h3>
               </div>
               <ul className="list-disc list-inside text-gray-700 space-y-0">
                 {outcomes.list.map((item, idx) => (
@@ -64,7 +64,7 @@ const Vision = () => {
                 alt={`${value.title} image`}
                 className=""
               />
-              <h3 className="text-5xl font-semibold">{value.title}</h3>
+              <h3 className="text-3xl md:text-5xl font-semibold">{value.title}</h3>
             </div>
             <ul className="list-disc list-inside text-gray-700 space-y-0 p-8 pt-0">
               {value.list.map((item, idx) => (

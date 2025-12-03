@@ -43,7 +43,7 @@ export default function MobileNavbar() {
 
             <SheetClose asChild>
               <Link href="/solutions" className="hover:text-accent-foreground/80">
-                Solutions
+                Sygence NexNet
               </Link>
             </SheetClose>
 

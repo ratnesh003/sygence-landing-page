@@ -7,11 +7,12 @@ import Vision from "./Vision";
 import Impact from "./Impact";
 import Partnerships from "./Partnerships";
 import Resources from "./Resources";
-
+import NexNetOverviewMobile from "./NexNetOverviewMobile";
 export {
     Hero,
     LegacyGap,
     NexNetOverview,
+    NexNetOverviewMobile,
     Advantages,
     Industries,
     Vision,

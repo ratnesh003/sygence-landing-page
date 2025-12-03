@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <Border className="relative overflow-hidden py-20 z-0">
       {/* TEXT CONTENT */}
-      <h1 className="relative text-4xl md:text-5xl lg:text-7xl font-medium tracking-tight">
+      <h1 className="relative w-full xl:w-4xl text-4xl md:text-5xl lg:text-7xl font-medium tracking-tight">
         Transform{" "}
         <span className="text-primary-foreground">your enterprise</span> and{" "}
         <span className="text-primary-foreground">your network</span> - into an{" "}

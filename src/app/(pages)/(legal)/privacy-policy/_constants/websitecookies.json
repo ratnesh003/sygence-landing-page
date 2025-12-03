@@ -1,58 +1,52 @@
 {
-  "title": "L. Website and Cookies",
+  "title": "N. Website and Cookies",
   "sections": [
     {
-      "subtitle": "1. Collection and Use of Application and Inquiry Information",
-      "content": [
-        "When you submit information through our Contact Us or Careers Page on our website, Sygence may collect, receive, store and process certain personal and professional information that you voluntarily provide. This may include, without limitation, your name, email address, phone number, company name, job title, LinkedIn profile, résumé or curriculum vitae (CV), portfolio links and any other information or documents that you choose to share with us.",
-        "By submitting such information, you expressly consent to Sygence collecting, receiving, storing, processing and using this data for the following purposes:",
+      "subtitle": "Collection and Use of Application and Inquiry Information : When you submit information through our Contact Us or Careers Page on our website, Sygence may collect, receive, store and process certain personal and professional information that you voluntarily provide. This may include, without limitation, your name, email address, phone number, company name, job title, LinkedIn profile, résumé or curriculum vitae (CV), portfolio links and any other information or documents that you choose to share with us.",
+      "purpose": {
+        "title": "By submitting such information, you expressly consent to Sygence collecting, receiving, storing, processing and using this data for the following purposes:",
+        "content": [
         "Responding to inquiries – to review and respond to your questions, business inquiries or requests for information about our services.",
         "Recruitment and Employment Consideration – to evaluate your profile, qualifications and suitability for any open or future positions at Sygence and to contact you regarding your application or related opportunities.",
         "Business Communication – to communicate with you in the ordinary course of business, including through email, phone calls or messaging platforms.",
         "Legal Compliance and Protection – to comply with applicable legal obligations, respond to lawful requests from government or regulatory authorities and protect the rights, property, and safety of Sygence, its employees and users."
-      ]
+      ]}
     },
     {
-      "subtitle": "2. Data Storage and Security",
-      "content": [
-        "All information submitted by you will be stored securely in accordance with the provisions of the Information Technology Act, 2000, and the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules and all other applicable laws. Appropriate technical and organizational measures will be taken to protect your personal data from unauthorized access, alteration, disclosure or destruction."
-      ]
+      "subtitle": "Data Storage and Security : All information submitted by you will be stored securely in accordance with the provisions of the Information Technology Act, 2000, and the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules and all other applicable laws. Appropriate technical and organizational measures will be taken to protect your personal data from unauthorized access, alteration, disclosure or destruction."
     },
     {
-      "subtitle": "3. Data Retention",
-      "content": [
-        "Sygence will retain the information you provide only for as long as necessary to fulfill the purposes mentioned above, unless a longer retention period is required by law or justified for legitimate business purposes (for example, maintaining candidate databases for future employment opportunities)."
-      ]
+      "subtitle": "Data Retention : Sygence will retain the information you provide only for as long as necessary to fulfill the purposes mentioned above, unless a longer retention period is required by law or justified for legitimate business purposes (for example, maintaining candidate databases for future employment opportunities)."
     },
     {
-      "subtitle": "4. Disclosure to Third Parties",
+      "subtitle": "Disclosure to Third Parties: Your information may be shared with -",
       "content": [
-        "Your information may be shared with:",
-        "• Internal personnel involved in recruitment or business development;",
-        "• Third-party service providers or partners assisting with recruitment management, data storage, or communication services, who are bound by confidentiality and data protection obligations;",
-        "• Government authorities or regulators when disclosure is mandated under applicable law.",
+        "Internal personnel involved in recruitment or business development;",
+        "Third-party service providers or partners assisting with recruitment management, data storage, or communication services, who are bound by confidentiality and data protection obligations;",
+        "Government authorities or regulators when disclosure is mandated under applicable law."
+      ],
+      "para": [
         "Sygence does not sell, rent, or trade your personal data to third parties for marketing or commercial gain."
       ]
     },
     {
-      "subtitle": "5. Limitation of Liability",
+      "subtitle": "Limitation of Liability : While Sygence implements and maintains reasonable security practices and procedures as required under Indian Data Protection Laws, Sygence shall not be liable for any loss, damage or unauthorized access, alteration, disclosure or destruction of personal information that occurs due to reasons beyond its reasonable control, including but not limited to;",
       "content": [
-        "While Sygence implements and maintains reasonable security practices and procedures as required under Indian Data Protection Laws, Sygence shall not be liable for any loss, damage or unauthorized access, alteration, disclosure or destruction of personal information that occurs due to reasons beyond its reasonable control, including but not limited to:",
-        "• Acts of nature, fire, flood or other natural disasters;",
-        "• Unauthorized access to or interception of data during transmission over the Internet;",
-        "• Failures or breaches by third-party hosting, storage or communication service providers; or",
-        "• Any other event that cannot reasonably be prevented by Sygence.",
+        "Acts of nature, fire, flood or other natural disasters;",
+        "Unauthorized access to or interception of data during transmission over the Internet;",
+        "Failures or breaches by third-party hosting, storage or communication service providers; or",
+        "Any other event that cannot reasonably be prevented by Sygence."
+      ],
+      "para": [
         "Further, Sygence shall not be responsible for the authenticity, accuracy or completeness of the information provided by you. Any liability arising from reliance on incorrect or false information submitted by users shall rest solely with the individual who provided such data.",
         "To the fullest extent permitted by applicable laws, Sygence, its directors, employees and agents shall not be liable for any direct, indirect, incidental, consequential, or special damages (including loss of profits, data, goodwill, or reputation) resulting from or in connection with the collection, use, storage or disclosure of information provided by you or from your access or use of the Sygence website."
       ]
     },
     {
-      "subtitle": "6. User Consent and Rights",
-      "content": [
-        "By consenting to the storage and processing of your personal information through the Contact Us or Careers Page, you acknowledge that you have read and understood this Privacy Policy and consent to the collection, use, storage and processing of your data as described in the sections stated herein.",
-        "Under applicable Indian Data Protection Laws, you may request access, correction or deletion of your information or withdraw your consent by contacting us at the email address specified in this Privacy Policy.",
-        "Sygence may also use cookies stored on a user’s browser or web browser’s persistent storage to recognize users who have previously visited the website, analyze website performance, and provide an improved and personalized experience by returning visitors to the Site and users of the Network, as well as to track relevant metrics and usage behavior. These cookies help enhance the functionality of our services."
-      ]
+      "subtitle": "User Consent and Rights : By consenting to the storage and processing of your personal information through the Contact Us or Careers Page, you acknowledge that you have read and understood this Privacy Policy and consent to the collection, use, storage and processing of your data by Sygence for the purposes stated herein.Under applicable Indian Data Protection Laws, you may request access, correction or deletion of your data, or withdraw your consent by contacting us at the email address specified in this Privacy Policy."
+    },
+    {
+      "subtitle": "Cookies : Cookies are small text files stored on a user’s device by web browsers. These files enable site owners to recognize users who have previously interacted with the website. The Company uses cookies to identify returning visitors to the Site and users of the Network, as well as to collect information about their interactions with both. This data helps us enhance the user experience and improve the functionality of our services."
     }
   ]
 }

@@ -4,10 +4,10 @@ import { legalbasis } from "../_constants";
 const LegalBasis = () => {
   return (
     <section>
-      <h2>{legalbasis.title}</h2>
-      <p>{legalbasis.intro}</p>
+      <h2 className="text-2xl font-semibold tracking-tight my-6">{legalbasis.title}</h2>
+      <p className="tracking-tight">{legalbasis.intro}</p>
 
-      <ol>
+      <ol className="list-decimal pl-5">
         {legalbasis.list.map((item, index) => (
           <li key={index}>
             {typeof item === "string" && item}
@@ -15,7 +15,7 @@ const LegalBasis = () => {
             {typeof item === "object" && (
               <>
                 <p>{item.heading}</p>
-                <ul>
+                <ul className="list-disc pl-5">
                   {item.subpoints.map((sp, i) => (
                     <li key={i}>{sp}</li>
                   ))}
@@ -26,7 +26,7 @@ const LegalBasis = () => {
         ))}
       </ol>
 
-      <p>{legalbasis.note}</p>
+      <p className="my-6">{legalbasis.note}</p>
       <p>{legalbasis.footer}</p>
     </section>
   );

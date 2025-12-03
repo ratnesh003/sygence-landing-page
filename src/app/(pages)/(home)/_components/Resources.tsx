@@ -16,7 +16,7 @@ const Resources = () => {
   return (
     <Border>
       <h1
-        className="text-5xl tracking-tight font-medium mb-6 w-full text-center"
+        className="text-4xl md:text-5xl tracking-tight font-medium mb-6 w-full text-center"
         id="resources"
       >
         {resources.title}

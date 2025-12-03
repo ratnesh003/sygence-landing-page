@@ -4,18 +4,18 @@ import { storing } from "../_constants";
 const Storing = () => {
   return (
     <section>
-      <h2>{storing.title}</h2>
-      <p>{storing.intro}</p>
+      <h2 className="text-2xl font-semibold tracking-tight my-6">{storing.title}</h2>
+      <p className="mb-6">{storing.intro}</p>
 
-      <h3>{storing.subtitle}</h3>
+      <p>{storing.subtitle}</p>
 
-      <ol>
+      <ol className="list-decimal pl-8">
         {storing.list.map((item, index) => (
           <li key={index}>{item}</li>
         ))}
       </ol>
 
-      <p>{storing.footer}</p>
+      <p className="mt-6">{storing.footer}</p>
     </section>
   );
 };

@@ -4,16 +4,16 @@ import { collection } from "../_constants";
 const Collection = () => {
   return (
     <section>
-      <h2>{collection.title}</h2>
+      <h2 className="text-2xl font-semibold tracking-tight my-6">
+        {collection.title}
+      </h2>
 
       {collection.sections.map((sec, idx) => (
         <div key={idx}>
-          <h3>{sec.subtitle}</h3>
-
-          {sec.body && <p>{sec.body}</p>}
+          <p>{sec.subtitle}</p>
 
           {sec.list && (
-            <ul>
+            <ul className="list-disc pl-4.5 mb-6">
               {sec.list.map((item, li) => (
                 <li key={li}>{item}</li>
               ))}
@@ -21,9 +21,9 @@ const Collection = () => {
           )}
 
           {sec.table && (
-            <table>
+            <table className="mt-6">
               <thead>
-                <tr>
+                <tr className="bg-[#F1F3F9]">
                   {sec.table.headers.map((h, hi) => (
                     <th key={hi}>{h}</th>
                   ))}
@@ -32,13 +32,18 @@ const Collection = () => {
 
               <tbody>
                 {sec.table.rows.map((row, ri) => (
-                  <tr key={ri}>
+                  <tr key={ri} className={ri % 2 ? "bg-[#F1F3F9]" : ""}>
                     <td>{row.source}</td>
                     <td>
-                      <ul>
-                        {row.details.map((d, di) => (
-                          <li key={di}>{d}</li>
-                        ))}
+                      <ul className="list-decimal">
+                        {row.details.map((d, di) => {
+                          const letter = String.fromCharCode(97 + di); // 97 = 'a'
+                          return (
+                            <li key={di} className="inline">
+                              ({letter}.) {d}
+                            </li>
+                          );
+                        })}
                       </ul>
                     </td>
                   </tr>

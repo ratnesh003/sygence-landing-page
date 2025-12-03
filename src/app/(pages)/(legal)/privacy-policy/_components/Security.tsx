@@ -4,10 +4,10 @@ import { security } from "../_constants";
 const Security = () => {
   return (
     <section>
-      <h2>{security.title}</h2>
+      <h2 className="text-2xl font-semibold tracking-tight my-6">{security.title}</h2>
 
       {security.sections.map((text, index) => (
-        <p key={index}>{text}</p>
+        <p className={index != security.sections.length ? "mb-6": ""} key={index}>{text}</p>
       ))}
     </section>
   );

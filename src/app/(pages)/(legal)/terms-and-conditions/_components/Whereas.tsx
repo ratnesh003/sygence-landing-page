@@ -4,7 +4,7 @@ import { whereas } from "../_constants";
 const Whereas = () => {
   return (
     <div>
-      <h1>{whereas.title}</h1>
+      <h1 className="text-3xl font-semibold tracking-tight my-6">{whereas.title}</h1>
       {whereas.content.map((paragraph, index) => (
         <p key={index}>{paragraph}</p>
       ))}

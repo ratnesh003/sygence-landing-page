@@ -37,7 +37,7 @@ export default function Navbar() {
                 asChild
                 className={navigationMenuTriggerStyle()}
               >
-                <Link href="/solutions">Solutions</Link>
+                <Link href="/solutions">Sygence NexNet</Link>
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
@@ -69,7 +69,7 @@ export default function Navbar() {
                   variant={"default"}
                   className="bg-accent-foreground text-primary hover:bg-accent-foreground/90"
                 >
-                  Request a Demo
+                  Request a demo
                 </Button>
               </Link>
             </NavigationMenuItem>

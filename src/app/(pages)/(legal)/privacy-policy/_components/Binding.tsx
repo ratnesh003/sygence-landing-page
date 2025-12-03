@@ -4,19 +4,19 @@ import { binding } from "../_constants";
 const Binding = () => {
   return (
     <section>
-      <h2>{binding.title}</h2>
+      <h2 className="text-2xl font-semibold tracking-tight my-6">{binding.title}</h2>
 
-      <p>{binding.intro}</p>
+      <p className="mb-6">{binding.intro}</p>
 
-      <h3>{binding.subtitle}</h3>
+      <p>{binding.subtitle}</p>
 
-      <ol>
+      <ol className="list-decimal pl-8">
         {binding.list.map((item, index) => (
           <li key={index}>{item}</li>
         ))}
       </ol>
 
-      <p>{binding.footer}</p>
+      <p className="mt-6">{binding.footer}</p>
     </section>
   );
 };

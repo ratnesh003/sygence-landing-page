@@ -27,7 +27,7 @@ import ContactInfo from "@/components/ContactInfo";
 import { Checkbox } from "@/components/ui/checkbox";
 
 // -------------------------------
-// ✨ FORM SCHEMA (corrected)
+// ✨ FORM SCHEMA 
 // -------------------------------
 const formSchema = z.object({
   name: z

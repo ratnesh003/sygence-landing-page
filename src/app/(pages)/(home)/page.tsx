@@ -6,6 +6,7 @@ import {
   Hero, 
   LegacyGap, 
   NexNetOverview, 
+  NexNetOverviewMobile,
   Advantages, 
   Industries, 
   Vision, 
@@ -20,6 +21,7 @@ export default function Home() {
       <Hero />
       <LegacyGap />
       <NexNetOverview />
+      <NexNetOverviewMobile />
       <Advantages />
       <Industries />
       <Vision />

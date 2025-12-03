@@ -4,7 +4,7 @@ import { agreement } from "../_constants";
 const Agreement = () => {
   return (
     <div>
-      <h1>{agreement.title}</h1>
+      <h1 className="text-5xl font-medium tracking-tighter mb-6">{agreement.title}</h1>
       {agreement.content.map((paragraph, index) => (
         <p key={index}>{paragraph}</p>
       ))}
