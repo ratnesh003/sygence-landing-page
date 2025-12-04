@@ -1,7 +1,7 @@
 {
-  "title": "Our Mission",
+  "title": "Our mission",
   "description": [
-    "Sygence was founded to address one of the most critical gaps in modern global business : the inability of legacy systems to orchestrate complex, multi-enterprise networks in real time. As supply chains expanded across continents, functions and partners, traditional tools like ERPs, spreadsheets and APIs - designed for internal optimization - couldn’t keep pace with the volatility, visibility gaps and coordination challenges of the Network Economy. When disruptions struck, there was no unified view resulting in faulty coordination and escalated costs.",
-    "Sygence’s mission is to build NexNet - a network-native, AI-augmented platform for multi-enterprise orchestration that transforms disconnected operations into a synchronized collaboration grid. Instead of replacing legacy infrastructure, NexNet layers over existing systems as the intelligence and coordination layer, feeding real-time internal and network-wide data back into enterprise platforms and compounding their value."
+    "Sygence was founded to address one of the most critical gaps in modern global business: the inability of legacy systems to orchestrate complex, multi-enterprise networks in real time. As supply chains expanded across continents, functions and partners, traditional tools like ERPs, spreadsheets and APIs — designed for internal optimization — couldn’t keep pace with the volatility, visibility gaps and coordination challenges of the network economy. When disruptions struck, there was no unified view, resulting in faulty coordination and escalated costs.",
+    "Sygence’s mission is to build NexNet - a network-native, AI-augmented platform for multi-enterprise orchestration that transforms disconnected operations into a synchronized collaboration grid. Instead of replacing legacy infrastructure, NexNet layers over existing systems as the intelligence and coordination layer, feeding real-time internal and network-wide data back into enterprise platforms and compounding their value. "
   ]
 }

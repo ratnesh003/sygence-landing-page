@@ -14,13 +14,13 @@ const Hero = () => {
       <h1 className="relative w-full xl:w-4xl text-4xl md:text-5xl lg:text-7xl font-medium tracking-tight">
         Transform{" "}
         <span className="text-primary-foreground">your enterprise</span> and{" "}
-        <span className="text-primary-foreground">your network</span> - into an{" "}
-        <span className="text-primary-foreground">unstoppable force.</span>
+        <span className="text-primary-foreground">your network</span> into an{" "}
+        <span className="text-primary-foreground">unstoppable force</span>
       </h1>
 
       <Link href="/contact">
         <Button className="text-primary bg-primary-foreground hover:bg-primary-foreground/90 mt-6 relative z-10">
-          Request a Demo
+          Request a demo
         </Button>
       </Link>
 

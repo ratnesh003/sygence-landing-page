@@ -14,7 +14,6 @@ import {
   FieldError,
   FieldGroup,
   FieldLabel,
-  FieldSet,
 } from "@/components/ui/field";
 
 import { Input } from "@/components/ui/input";
@@ -124,7 +123,7 @@ export default function ContactForm() {
                   render={({ field, fieldState }) => (
                     <Field data-invalid={fieldState.invalid}>
                       <FieldLabel>
-                        First Name <span className="text-red-500">*</span>
+                        First name <span className="text-red-500">*</span>
                       </FieldLabel>
                       <Input
                         {...field}
@@ -145,7 +144,7 @@ export default function ContactForm() {
                   render={({ field, fieldState }) => (
                     <Field data-invalid={fieldState.invalid}>
                       <FieldLabel>
-                        Last Name <span className="text-red-500">*</span>
+                        Last name <span className="text-red-500">*</span>
                       </FieldLabel>
                       <Input
                         {...field}
@@ -188,7 +187,7 @@ export default function ContactForm() {
                 render={({ field, fieldState }) => (
                   <Field data-invalid={fieldState.invalid}>
                     <FieldLabel>
-                      Phone Number <span className="text-red-500">*</span>
+                      Phone number <span className="text-red-500">*</span>
                     </FieldLabel>
                     <Input
                       {...field}
@@ -208,7 +207,7 @@ export default function ContactForm() {
                 control={form.control}
                 render={({ field }) => (
                   <Field>
-                    <FieldLabel>Company Name</FieldLabel>
+                    <FieldLabel>Company name</FieldLabel>
                     <Input
                       {...field}
                       placeholder=""
@@ -257,7 +256,7 @@ export default function ContactForm() {
                       />
 
                       <FieldLabel className="font-normal leading-snug">
-                        I agree to receive communications from Sygence about
+                        I agree to receive communication from Sygence about
                         product news, industry insights and upcoming events. I
                         understand that I can unsubscribe at any time.
                       </FieldLabel>
@@ -288,7 +287,7 @@ export default function ContactForm() {
                   processing my data as described in the{" "}
                   <Link href="/privacy-policy" className="">
                     <span className="text-accent-foreground hover:text-accent-foreground/80 underline">
-                      Privacy Policy
+                      Privacy policy
                     </span>
                   </Link>
                   .

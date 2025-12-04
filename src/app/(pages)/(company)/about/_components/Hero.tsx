@@ -9,11 +9,11 @@ const Hero = () => {
     <Border className="relative overflow-hidden py-20 bg-gradient-to-br from-[#5b89c2] via-[#6dabde] to-[#5e8fc8] text-primary z-0 h-screen lg:h-[80vh]">
       
       {/* TEXT CONTENT */}
-      <h1 className="relative z-10 text-4xl md:text-5xl lg:text-7xl font-medium tracking-tighter w-full xl:w-3xl">
+      <h1 className="relative z-10 text-4xl md:text-5xl lg:text-7xl font-medium tracking-tighter w-full xl:w-xl">
         {hero.title}
       </h1>
 
-      <p className="relative z-10 w-full xl:w-3xl mt-8 tracking-wider">
+      <p className="relative z-10 w-full xl:w-xl mt-8 tracking-wider">
         {hero.subtitle}
       </p>
 

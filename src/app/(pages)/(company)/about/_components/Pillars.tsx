@@ -16,7 +16,7 @@ const Pillars = () => {
           <p className="w-full lg:w-3xl text-center mb-20">
             {pillars.description}
           </p>
-          <div className="flex flex-col xl:flex-row justify-center items-stretch gap-8">
+          <div className="flex flex-col xl:flex-row justify-center items-stretch gap-20 lg:gap-8">
             {pillars.cards.map((card, id) => (
               <div key={id} className="relative flex flex-col h-auto">
                 <Image
@@ -24,7 +24,7 @@ const Pillars = () => {
                   width={card.width}
                   height={145}
                   alt="number icon"
-                  className="absolute -top-10 -left-7 -z-10"
+                  className="absolute -top-15 lg:-top-10 -right-4 lg:-left-7 -z-10"
                 />
 
                 <Card className="relative w-80 lg:w-96 h-full flex flex-col hover:scale-105 hover:ring-[1px] hover:ring-[#60B4FA]/30">

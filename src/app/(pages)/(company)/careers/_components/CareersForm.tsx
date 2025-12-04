@@ -31,7 +31,6 @@ import {
   Select,
   SelectContent,
   SelectItem,
-  SelectSeparator,
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
@@ -167,7 +166,7 @@ const CareersForm = () => {
                 control={form.control}
                 render={({ field }) => (
                   <Field>
-                    <FieldLabel>Linkedin / Portfolio</FieldLabel>
+                    <FieldLabel>LinkedIn / Portfolio</FieldLabel>
                     <Input
                       {...field}
                       placeholder=""
@@ -184,7 +183,7 @@ const CareersForm = () => {
                 render={({ field, fieldState }) => (
                   <Field data-invalid={fieldState.invalid}>
                     <FieldLabel>
-                      Area of Interest<span className="text-red-500">*</span>
+                      Area of interest<span className="text-red-500">*</span>
                     </FieldLabel>
                     <Select
                       name={field.name}
@@ -264,8 +263,8 @@ const CareersForm = () => {
                   Submit
                 </Button>
                 <FieldDescription>
-                  By clicking “Submit Application”, I consent to Sygence storing
-                  and processing my data as described in the <Link href={"/privacy-policy"}>Privacy Policy</Link> .
+                  By clicking “Submit”, I consent to Sygence storing
+                  and processing my data as described in the <Link href={"/privacy-policy"}>Privacy policy</Link>.
                 </FieldDescription>
               </Field>
             </FieldGroup>
