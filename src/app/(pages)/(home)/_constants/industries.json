@@ -25,8 +25,8 @@
     },
     {
       "header": "Automotive",
-      "challenges": "Automakers are navigating semiconductor shortages, the EV transition and multi-tier supplier dependencies, while managing locked capital and rising costs.",
-      "solution": "Our platform aligns OEMs and suppliers into a single real-time network. It reallocates supply when disruptions strike, adapts seamlessly to new EV and software-driven models and equips leaders with foresight to prevent bottlenecks.",
+      "challenges": "Automakers are navigating semiconductor shortages, the EV transition and multi-tier supplier dependencies while managing locked capital and rising costs.",
+      "solution": "Our platform aligns OEMs and suppliers into a single real-time network. It reallocates supply when disruptions strike, adapts seamlessly to new EV and software-driven models, and equips leaders with foresight to prevent bottlenecks.",
       "impact": "Billions unlocked in revenue, optimized inventory, freed-up capital and significant margin expansion.",
       "image": "/assets/home/automotive-industries.svg"
     },
@@ -38,7 +38,7 @@
       "image": "/assets/home/consumer-industries.svg"
     },
     {
-      "header": "Food & Beverages",
+      "header": "Food & Beverage",
       "challenges": "The food and beverage industry faces volatile demand, ingredient shortages, compliance risks and slow supplier onboarding.",
       "solution": "Our platform creates farm-to-fork transparency, linking farmers, plants, logistics and retailers in real time. It adapts to launches, promotions and recalls while resolving risks before they escalate. Predictive insights and instant workflows give businesses the agility to pivot quickly.",
       "impact": "Improved forecast accuracy, reduced onboarding from weeks to days, lower costs and recall responses in minutes instead of days.",

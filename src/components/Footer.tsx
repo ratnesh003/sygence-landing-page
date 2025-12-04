@@ -14,11 +14,11 @@ const Footer = () => {
           <div>
             <Logo />
             <p className="mb-8 mt-1 text-sm tracking-tight">
-              Breaking Silos. Shaping Tomorrow.
+              Breaking silos. Shaping tomorrow.
             </p>
             <ContactInfo />
           </div>
-          <div className="flex flex-col md:flex-row items-start justify-between gap-6">
+          <div className="flex flex-row items-start justify-between gap-6">
             <div className="flex flex-col items-start justify-center gap-4 w-48">
               <Link href={"/about"}>
                 <p className="text-sm font-semibold">About us</p>
@@ -50,20 +50,20 @@ const Footer = () => {
           </div>
         </div>
         <Separator className="mb-8" />
-        <div className="h-fit w-full flex flex-col lg:flex-row items-center justify-between">
+        <div className="h-fit w-full flex flex-col-reverse items-start lg:flex-row md:items-center justify-between">
           <p className="text-sm flex items-center justify-center gap-1">
             <Copyright size={12} />
             2025 Sygence. All rights reserved.
           </p>
-          <nav className="flex items-center justify-center gap-6">
+          <nav className="flex flex-col md:flex-row items-start md:items-center justify-center gap-6">
             <Link href={"/privacy-policy"}>
               <p className="text-sm underline hover:text-accent-foreground ">
-                Privacy Policy
+                Privacy policy
               </p>
             </Link>
             <Link href={"/terms-and-conditions"}>
               <p className="text-sm underline hover:text-accent-foreground ">
-                Terms & Conditions
+                Terms & conditions
               </p>
             </Link>
             <CookiesDialog />

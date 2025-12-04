@@ -8,6 +8,7 @@ const Acknowledgement = () => {
       {acknowledgement.content.map((paragraph: string, index: number) => (
         <p key={index}>{paragraph}</p>
       ))}
+      <p className="font-semibold tracking-tight text-primary-foreground my-6">Connect</p>
     </div>
   );
 };

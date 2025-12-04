@@ -23,7 +23,7 @@ const ParticleBackground = () => {
     const LINE_COLOR = "76,182,251";
 
     let particles: any[] = [];
-    let mouse = { x: null as number | null, y: null as number | null };
+    const mouse = { x: null as number | null, y: null as number | null };
 
     const randomRange = (min: number, max: number) =>
       Math.random() * (max - min) + min;

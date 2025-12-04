@@ -1,19 +1,29 @@
 {
   "title": "4. USER OBLIGATIONS",
   "content": [
-    "4.1 The USER hereby acknowledges and agrees to the following obligations in connection with their use of the Platform:",
-    "• Provision of Accurate and Authentic Information: The USER shall provide complete, accurate and truthful information, supported by verifiable data and documentation, as required for registration and throughout the term of their use of the Platform. The USER warrants that all information submitted is authentic and free from any misrepresentation or omission.",
-    "• Data Privacy and Protection: The USER is solely responsible for ensuring the confidentiality, integrity and security of all data received through the Platform. The USER shall comply with all applicable data protection laws, regulations, and industry standards to safeguard any personal, sensitive, or confidential data entrusted to them. The unauthorized access, use, or disclosure of such data is strictly prohibited.",
-    "• Compliance with Submitted Documents and Evidence: The USER shall comply with all terms, conditions and requirements outlined in the documents and evidence submitted to the Platform. The USER further undertakes to ensure that such documents remain accurate, complete and current throughout the duration of their use of the Platform and agrees to promptly notify SYGENCE of any changes that may affect their compliance.",
-    "• Disclosure of Risks and Non-Compliance Events: The USER shall promptly and transparently disclose any risks, non-compliance events or material issues observed within their organization that may affect the integrity or functioning of the Platform or the delivery of services. The USER agrees to cooperate fully with SYGENCE in addressing and mitigating any such risks or non-compliance events, ensuring that appropriate corrective actions are taken.",
-    "• USER Accounts and Password Secrecy: The USER shall maintain the confidentiality of its account credentials and shall not share access with unauthorized individuals. The USER shall be solely responsible for any activities conducted under its account and shall immediately notify SYGENCE of any unauthorized use or security breach.",
-    "4.2 Prohibited activities: USERs are prohibited from engaging in any conduct or activity that violates the terms of this Agreement, including any actions explicitly prohibited in the contract agreement between SYGENCE and the USER. Prohibited activities include, but are not limited to:",
-    "• Violate any applicable laws, regulations or third-party rights.",
-    "• Engage in fraudulent, illegal or unethical conduct.",
-    "• Attempt unauthorized access, including data scraping, reverse engineering or security circumvention.",
-    "• Introduce malicious code, viruses or other security threats to the Platform.",
-    "• Impair, disrupt or interfere with the Platform’s functionality or security.",
-    "• Violate intellectual property rights, including unauthorized use, reproduction or distribution of content belonging to SYGENCE or third parties.",
-    "4.3 SYGENCE reserves the right to suspend or terminate any USER account found to be in violation of these terms."
+    {
+      "header": "4.1 The USER hereby acknowledges and agrees to the following obligations in connection with their use of the Platform:",
+      "points": [
+        "Provision of Accurate and Authentic Information: The USER shall provide complete, accurate and truthful information, supported by verifiable data and documentation, as required for registration and throughout the term of their use of the Platform. The USER warrants that all information submitted is authentic and free from any misrepresentation or omission.",
+        "Data Privacy and Protection: The USER is solely responsible for ensuring the confidentiality, integrity and security of all data received through the Platform. The USER shall comply with all applicable data protection laws, regulations, and industry standards to safeguard any personal, sensitive, or confidential data entrusted to them. The unauthorized access, use, or disclosure of such data is strictly prohibited.",
+        "Compliance with Submitted Documents and Evidence: The USER shall comply with all terms, conditions and requirements outlined in the documents and evidence submitted to the Platform. The USER further undertakes to ensure that such documents remain accurate, complete and current throughout the duration of their use of the Platform and agrees to promptly notify SYGENCE of any changes that may affect their compliance.",
+        "Disclosure of Risks and Non-Compliance Events: The USER shall promptly and transparently disclose any risks, non-compliance events or material issues observed within their organization that may affect the integrity or functioning of the Platform or the delivery of services. The USER agrees to cooperate fully with SYGENCE in addressing and mitigating any such risks or non-compliance events, ensuring that appropriate corrective actions are taken.",
+        "USER Accounts and Password Secrecy: The USER shall maintain the confidentiality of its account credentials and shall not share access with unauthorized individuals. The USER shall be solely responsible for any activities conducted under its account and shall immediately notify SYGENCE of any unauthorized use or security breach."
+      ]
+    },
+    {
+      "header": "4.2 Prohibited activities: USERs are prohibited from engaging in any conduct or activity that violates the terms of this Agreement, including any actions explicitly prohibited in the contract agreement between SYGENCE and the USER. Prohibited activities include, but are not limited to:",
+      "points": [
+        "Violate any applicable laws, regulations or third-party rights.",
+        "Engage in fraudulent, illegal or unethical conduct.",
+        "Attempt unauthorized access, including data scraping, reverse engineering or security circumvention.",
+        "Introduce malicious code, viruses or other security threats to the Platform.",
+        "Impair, disrupt or interfere with the Platform’s functionality or security.",
+        "Violate intellectual property rights, including unauthorized use, reproduction or distribution of content belonging to SYGENCE or third parties."
+      ]
+    },
+    {
+      "header": "4.3 SYGENCE reserves the right to suspend or terminate any USER account found to be in violation of these terms."
+    }
   ]
 }

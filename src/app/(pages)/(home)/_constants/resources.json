@@ -3,31 +3,31 @@
     "description": "Comprehensive resources to navigate supply chain complexity",
     "cards": [
         {
-            "header": "Forces Shaping Modern Networks",
-            "content": "Understand the 7 key drivers—from globalization to sustainability—that are pushing companies toward multi-enterprise supply chains.",
+            "header": "Forces shaping modern networks",
+            "content": "Understand the 7 key drivers - from globalization to sustainability - that are pushing companies toward multi-enterprise supply chains.",
             "image": "/assets/home/rsc-networks.svg",
             "link": "https://drive.google.com/file/d/1mPW9Lvhvle_wSZDoXMZaQoyiywJ4wcuR/view"
         },
         {
-            "header": "Why Multi-Enterprise SaaS is the Future",
-            "content": "Discover how unified platforms replace fragmented ERPs and APIs to deliver real-time visibility, agility, and resilience.",
+            "header": "Why multi-enterprise SaaS is the future",
+            "content": "Discover how unified platforms replace fragmented ERPs and APIs to deliver real-time visibility, agility and resilience.",
             "image": "/assets/home/rsc-saas.svg",
             "link": "https://drive.google.com/file/d/19jcvu4RD3iBCUH55bWDbeBAEtdkRFb8h/view"
         },
         {
-            "header": "Challenges in Multi-Enterprise Supply Chains",
-            "content": "Identify the top 10 problems, including data silos, manual processes, and complex partner onboarding, that slow down multi-party networks.",
+            "header": "Challenges in multi-enterprise supply chains",
+            "content": "Identify the top 10 problems, including data silos, manual processes and complex partner onboarding, that slow down multi-party networks.",
             "image": "/assets/home/rsc-supplychain.svg",
             "link": "https://drive.google.com/file/d/1DtMIXOLjaLScFoyAiGRVhDiqSvRyQlqy/view"
         },
         {
-            "header": "The Demand for a New Operating System",
-            "content": "See why multi-enterprise networks require a fundamentally different system than single-enterprise ERPs to manage complexity, risk, and compliance.",
+            "header": "The demand for a new operating system",
+            "content": "See why multi-enterprise networks require a fundamentally different system from single-enterprise ERPs to manage complexity, risk and compliance.",
             "image": "/assets/home/rsc-operating.svg",
             "link": "https://drive.google.com/file/d/1S1aYtWW4ArPrm984JXm_nSekVmEZ7f1r/view"
         },
         {
-            "header": "Key Features of a Multi-Enterprise Platform",
+            "header": "Key features of a multi-enterprise platform",
             "content": "Explore the essential features, like a unified data model and integrated workflow automation, that drive efficiency and collaboration.",
             "image": "/assets/home/rsc-keyfeature.svg",
             "link": "https://drive.google.com/file/d/1pPUq5xDHdWlwd036JMR7JzVEv6Px0N6z/view"

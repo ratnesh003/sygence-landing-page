@@ -1,21 +1,50 @@
 {
   "title": "6. DATA PROTECTION AND PRIVACY",
   "content": [
-    "6.1 Data Processing: SYGENCE agrees to process USER Data in compliance with applicable data protection laws and regulations and undertakes the following obligations:",
-    "• Processing on Instructions: USER Data shall be processed solely based on documented instructions received from the USER, except where required by applicable law.",
-    "• Data Security Measures: SYGENCE shall implement appropriate technical and organizational measures to ensure the security, confidentiality and integrity of USER Data and to protect it against unauthorized access, disclosure, alteration or destruction.",
-    "• Assistance with Data Subject Requests: SYGENCE shall provide reasonable assistance to the USER in responding to data subject requests, including but not limited to access, rectification, erasure or restriction of processing, as required under applicable data protection laws.",
-    "• Inventory Threshold Notifications: SYGENCE includes network intelligence capabilities designed to proactively address supply–demand imbalances. When inventory levels fall below a predefined threshold the Platform may use this information to generate a network-wide notification; such notifications are designed to optimize network efficiency and prevent stockouts.",
-    "• Breach Notification: SYGENCE shall promptly notify the USER, without undue delay, upon becoming aware of any personal data breach affecting USER Data, providing sufficient information to enable the USER to meet any regulatory or legal obligations.",
-    "6.2 Data Sharing:",
-    "• USER Credential Verification and Consent: Upon successful verification of the USER’s credentials, SYGENCE may share the USER’s data with third parties solely in accordance with the permissions framework established with the USER’s consent.",
-    "• Permitted Circumstances for Data Sharing: SYGENCE shall disclose USER data to third parties only where explicit consent has been obtained, to comply with legal obligations, to perform the services under this Agreement, or to third-party service providers bound contractually to protect confidentiality.",
-    "• Access by Third Parties: Any third parties who receive USER’s data will be provided access only to data necessary to fulfill the agreed services and will be contractually obligated to safeguard the USER’s data.",
-    "• Suppliers Access to Transaction Information: Transaction-related information is stored within respective customers’ databases and supplier access, where applicable, takes place directly within the customer environment.",
-    "• Continuous Consent: The USER acknowledges that ongoing consent is essential for the uninterrupted functioning of the Platform; withdrawal of consent may lead to service disruption or termination.",
-    "6.3 Liability and Risk: The USER acknowledges that engagement, transaction or exchange of data with third parties through the Platform is conducted at the USER’s risk. SYGENCE shall not be liable for disputes, damages or liabilities arising from third-party interactions, and the USER agrees to indemnify and hold SYGENCE harmless from claims resulting from such engagements.",
-    "6.4 Applicability: The provisions concerning data protection and privacy apply to all individuals under the registered organization’s payroll, any third-party granted access, and any individual who gains unauthorized access to the platform.",
-    "6.5 Third-Party Service Providers: SYGENCE may engage third-party service providers and subcontractors to support the Platform’s operation (infrastructure, analytics, storage, communication). The USER agrees to be bound by the providers’ applicable terms and privacy policies to the extent relevant to services rendered through SYGENCE.",
-    "6.6 Non-Liability for Third-Party Breaches: While SYGENCE exercises reasonable diligence in third-party selection and oversight, SYGENCE shall not be held liable for data breaches, security incidents, service disruptions or regulatory non-compliance caused directly or indirectly by such third parties."
+    {
+      "header": "6.1 Data Processing:",
+      "subheader": [
+        "SYGENCE agrees to process USER Data in compliance with applicable data protection laws and regulations and undertakes the following obligations:"
+      ],
+      "points": [
+        "Processing on Instructions: USER Data shall be processed solely based on documented instructions received from the USER, except where required by applicable law.",
+        "Data Security Measures: SYGENCE shall implement appropriate technical and organizational measures to ensure the security, confidentiality and integrity of USER Data and to protect it against unauthorized access, disclosure, alteration or destruction.",
+        "Assistance with Data Subject Requests: SYGENCE shall provide reasonable assistance to the USER in responding to data subject requests, including but not limited to access, rectification, erasure or restriction of processing, as required under applicable data protection laws.",
+        "Inventory Threshold Notifications: SYGENCE includes network intelligence capabilities designed to proactively address supply–demand imbalances. When inventory levels fall below a predefined threshold the Platform may use this information to generate a network-wide notification; such notifications are designed to optimize network efficiency and prevent stockouts.",
+        "Breach Notification: SYGENCE shall promptly notify the USER, without undue delay, upon becoming aware of any personal data breach affecting USER Data, providing sufficient information to enable the USER to meet any regulatory or legal obligations."
+      ]
+    },
+    {
+      "header": "6.2 Data Sharing:",
+      "points": [
+        "USER Credential Verification and Consent: Upon successful verification of the USER’s credentials, SYGENCE may share the USER’s data with third parties solely in accordance with the permissions framework established with the USER’s consent.",
+        "Permitted Circumstances for Data Sharing: SYGENCE shall disclose USER data to third parties only where explicit consent has been obtained, to comply with legal obligations, to perform the services under this Agreement, or to third-party service providers bound contractually to protect confidentiality.",
+        "Access by Third Parties: Any third parties who receive USER’s data will be provided access only to data necessary to fulfill the agreed services and will be contractually obligated to safeguard the USER’s data.",
+        "Suppliers Access to Transaction Information: Transaction-related information is stored within respective customers’ databases and supplier access, where applicable, takes place directly within the customer environment.",
+        "Continuous Consent: The USER acknowledges that ongoing consent is essential for the uninterrupted functioning of the Platform; withdrawal of consent may lead to service disruption or termination.",
+        "Data Protection Measures: SYGENCE shall take reasonable and appropriate technical and organizational measures to ensure that any data shared with third parties is protected in accordance with applicable data protection laws and industry standards."
+      ]
+    },
+    {
+      "header": "6.3 Liability and Risk: The USER acknowledges that engagement, transaction or exchange of data with third parties through the Platform is conducted at the USER’s risk. SYGENCE shall not be liable for disputes, damages or liabilities arising from third-party interactions, and the USER agrees to indemnify and hold SYGENCE harmless from claims resulting from such engagements."
+    },
+    {
+      "header": "6.4 The provisions of this Agreement, including the obligations concerning data protection and privacy, shall apply to:",
+      "points": [
+        "All individuals under the registered organization’s payroll,",
+        "Any third-party who has been voluntarily granted access by the organization,",
+        "Any individual who has gained unauthorized access to the platform, whether through circumvention or other means."
+      ],
+      "para": [
+        "In the event the original registering individual ceases to be associated with the organization, all such other USERs shall continue to be bound by these terms.",
+        "SYGENCE shall not be held liable for any breach or misuse of the platform by such individuals, and it shall be the sole responsibility of the organization to manage and secure platform access."
+      ]
+    },
+    {
+      "header": "6.5 SYGENCE engages third-party service providers and their respective subcontractors, affiliates or downstream partners (including but not limited to fourth-party providers and any other associated external parties) to support the operation of its Platform, including infrastructure, analytics, data storage and communication tools. By using the Platform, the USER agrees to be additionally bound by the applicable terms and conditions of use, privacy policies and service-level conditions imposed by such providers, to the extent relevant to the services rendered through SYGENCE."
+    },
+    {
+      "header": "6.6 Non-Liability for Third-Party Breaches: While SYGENCE exercises reasonable diligence in the selection, integration and oversight of third-party service providers and their respective subcontractors, affiliates or downstream partners (including but not limited to fourth-party providers and any other associated external parties), SYGENCE shall not be held liable for any data breaches, security incidents, service disruptions or regulatory non-compliance caused directly or indirectly by such entities. The USER acknowledges and agrees that the Platform's functionality may rely on such external integrations and assumes responsibility for any consequences, whether direct or indirect, arising from the acts, omissions or failures of these third parties and their affiliates."
+    }
   ]
 }

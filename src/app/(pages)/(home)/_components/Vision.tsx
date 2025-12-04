@@ -35,7 +35,7 @@ const Vision = () => {
                   alt={`${outcomes.title} image`}
                   className=""
                 />
-                <h3 className="text-lg md:text-2xl font-semibold">{outcomes.title}</h3>
+                <h3 className="text-xl md:text-2xl font-semibold">{outcomes.title}</h3>
               </div>
               <ul className="list-disc list-inside text-gray-700 space-y-0">
                 {outcomes.list.map((item, idx) => (

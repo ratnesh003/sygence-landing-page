@@ -5,33 +5,33 @@
     {
       "header": "Unified Data Graph",
       "content": "At the core of Sygence is the Unified Data Graph - a living map of the entire ecosystem that links demand, supply, inventory, shipments, finance and partner metadata, capturing every event and dependency in context.",
-      "pos": "top-16 left-8",
-      "icon": ""
+      "pos": "left-8 top-10 md:top-16 md:left-8",
+      "icon": "/assets/home/udg-icon.svg"
 
     },
     {
-      "header": "Network-Native Integration",
+      "header": "Network-Native Integration fabric",
       "content": "Powered by a Network-Native Integration Fabric - replacing brittle point-to-point APIs with a real-time connective layer that gives every partner shared visibility, shared logic and shared outcomes.",
-      "pos": "top-[20%] -right-4",
-      "icon": ""
+      "pos": "top-[25%] right-0 md:top-[20%] md:-right-4",
+      "icon": "/assets/home/nnif-icon.svg"
     },
     {
-      "header": "Composable Architecture",
-      "content": "Composable Architecture - modular, lego-like building blocks for sourcing, sales, finance and more. With simple registration and configuration, these modules plug seamlessly into existing systems, extending ERP and CRM far beyond the enterprise boundary.",
-      "pos": "-left-4 top-[38%]",
-      "icon": ""
+      "header": "Composable architecture",
+      "content": "Composable Architecture - modular, Lego-like building blocks for sourcing, sales, finance and more. With simple registration and configuration, these modules plug seamlessly into existing systems, extending ERP and CRM far beyond the enterprise boundary.",
+      "pos": "left-0 top-[60%] md:-left-4 md:top-[38%]",
+      "icon": "/assets/home/ca-icon.svg"
     },
     {
-      "header": "Real-Time Orchestration Engine",
+      "header": "Real-Time orchestration engine",
       "content": "Driving it all is the Real-Time Orchestration Engine - powered by the unified graph, it treats every disruption as a live signal, instantly re-routing, reallocating and re-optimizing execution across the network.",
-      "pos": "bottom-[22%] right-8",
-      "icon": ""
+      "pos": "right-4 bottom-[19%] md:bottom-[22%] md:right-8",
+      "icon": "/assets/home/rtoe-icon.svg"
     },
     {
       "header": "Adaptive Automation",
       "content": "Adaptive Automation removes manual workflows by binding rules and partner actions into one shared system of execution - eliminating fragmented hand-offs and reconciliations.",
-      "pos": "bottom-12 left-16",
-      "icon": ""
+      "pos": "bottom-6 left-12 md:bottom-12 md:left-16",
+      "icon": "/assets/home/aa-icon.svg"
     }
   ]
 }

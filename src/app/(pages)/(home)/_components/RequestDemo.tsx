@@ -54,7 +54,7 @@ const formSchema = z.object({
   }),
 });
 
-const RequestDemo = ({ trigger }: { trigger: String }) => {
+const RequestDemo = ({ trigger }: { trigger: string }) => {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {

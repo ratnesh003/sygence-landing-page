@@ -41,7 +41,7 @@ export default function CookiesDialog() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="ghost" size="sm" className="underline">
+        <Button variant="ghost" size="sm" className="underline -ml-3 mb-6 -mt-1 md:m-0">
           Cookie settings
         </Button>
       </DialogTrigger>

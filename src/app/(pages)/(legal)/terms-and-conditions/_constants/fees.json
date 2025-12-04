@@ -1,13 +1,21 @@
 {
   "title": "7. FEES AND PAYMENT",
   "content": [
-    "7.1 Payment Policy",
-    "• Upon making a payment to SYGENCE, the USER acknowledges and agrees to enter into a legally binding and enforceable contract with SYGENCE for the purchase of products or services through the designated payment facility.",
-    "• All payments to SYGENCE shall be made exclusively via Account Transfer or NEFT, as specified by SYGENCE.",
-    "• Any tax implications, including but not limited to Goods and Services Tax (GST), Tax Deducted at Source (TDS), or other applicable taxes or levies, shall be the sole responsibility of the USER and borne in accordance with prevailing laws and regulations.",
-    "7.2 Payment Terms",
-    "• Payments shall be made in full within thirty (30) days from the date of the invoice issued by SYGENCE.",
-    "• Late payments shall incur interest at the rate of eighteen percent (18%) per annum, calculated from the due date until the date of full payment.",
-    "• SYGENCE reserves the right to suspend or terminate the provision of services, either in whole or in part, in the event of non-payment or any failure to comply with the payment terms outlined herein."
+    {
+      "header": "7.1 Payment Policy",
+      "points": [
+        "Upon making a payment to SYGENCE, the USER acknowledges and agrees to enter into a legally binding and enforceable contract with SYGENCE for the purchase of products or services through the designated payment facility.",
+        "All payments to SYGENCE shall be made exclusively via Account Transfer or NEFT, as specified by SYGENCE.",
+        "Any tax implications, including but not limited to Goods and Services Tax (GST), Tax Deducted at Source (TDS), or other applicable taxes or levies, shall be the sole responsibility of the USER and borne in accordance with prevailing laws and regulations."
+      ]
+    },
+    {
+      "header": "7.2 Payment Terms",
+      "points": [
+        "Payments shall be made in full within thirty (30) days from the date of the invoice issued by SYGENCE.",
+        "Late payments shall incur interest at the rate of eighteen percent (18%) per annum, calculated from the due date until the date of full payment.",
+        "SYGENCE reserves the right to suspend or terminate the provision of services, either in whole or in part, in the event of non-payment or any failure to comply with the payment terms outlined herein."
+      ]
+    }
   ]
 }

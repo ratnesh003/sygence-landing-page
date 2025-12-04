@@ -1,11 +1,11 @@
 {
-  "title": "From Complexity → Competitiveness",
+  "title": "From complexity → competitiveness",
   "description": "Legacy systems were built to run enterprises. Sygence is built to run networks. They own the past. We own the network future.",
   "content": "NexNet turns multi-enterprise supply chains from a cost of complexity into a source of competitive advantage. Unlike ERPs, marketplaces or integrators, it unifies demand, supply and partners into one living network - creating compounding intelligence with every new connection.",
   "outcomes": {
     "title": "Tangible outcomes",
     "list": [
-      "Risk reduction & ESG alignment",
+      "Risk reduction and ESG alignment",
       "Capital efficiency",
       "Faster growth",
       "Smarter execution"
@@ -13,11 +13,11 @@
     "icon": "/assets/home/outcomes-icon.svg"
   },
   "value": {
-    "title": "Value for the C-Suite",
+    "title": "Value for the C-suite",
     "list": [
       {
         "head": "CEO →",
-        "content": " Growth through network scale & resilience."
+        "content": " Growth through network scale and resilience."
       },
       {
         "head": "COO →",
@@ -29,7 +29,7 @@
       },
       {
         "head": "CPO →",
-        "content": " Partner discovery & ESG risk management built in."
+        "content": " Partner discovery and ESG risk management built in."
       }
     ],
     "icon": "/assets/home/value-icon.svg",

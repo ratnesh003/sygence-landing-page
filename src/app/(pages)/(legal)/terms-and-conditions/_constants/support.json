@@ -1,31 +1,82 @@
 {
-  "title": "12. SUPPORT AND MAINTENANCE",
+  "title": "1SUPPORT AND MAINTENANCE",
+  "description": "SYGENCE provides customer support and platform maintenance as outlined below. USERs are encouraged to report issues through the Platform’s support channels.",
   "content": [
-    "SYGENCE provides customer support and platform maintenance as outlined below. USERs are encouraged to report issues through the Platform’s support channels.",
-    "12.1 Turnaround Time and Access Provisioning:",
-    "SYGENCE agrees to maintain a reasonable Turnaround Time (TAT) for handling customer requests or performing services as outlined in this Agreement. The TAT will be measured from the moment the request is received by SYGENCE until the completion of the requested actions or services.",
-    "The following table outlines the specific TAT response and TAT resolutions for different severity levels and categories:",
-    "Category | Severity | Priority | TAT Response | TAT Resolution",
-    "Level 1 | High | High | ( ) Hours | ( ) Hours",
-    "Level 2 | Medium | High | ( ) Hours | ( ) Working days",
-    "Level 3 | Low | Medium/Low | ( ) Hours | ( ) Working days",
-    "Category Definitions:",
-    "Level 1:",
-    "Level 2:",
-    "Level 3:",
-    "12.2 Exclusions: The TAT does not cover delays and disruptions caused by factors beyond SYGENCE’s control, including but not limited to:",
-    "1. Force Majeure events as mentioned.",
-    "2. Client side infrastructure or system failures.",
-    "3. Delays caused by Third Party Vendors or Service Providers.",
-    "12.3 Support and Maintenance Services entitles USER to the following:",
-    "1. Telephone or electronic support to help Customer locate and correct problems with the Software.",
-    "2. Bug fixes and code corrections to correct Software malfunctions in order to bring such Software into substantial conformity with the operating specifications.",
-    "3. All extensions, enhancements and other changes that SYGENCE, at its sole discretion, makes or adds to the Software and which SYGENCE furnishes, without charge, to all other Subscribers of the Service.",
-    "12.4 Response and Resolution Goals:",
-    "1. “Business hours” 9am-6pm CST, Monday to Friday, except National holidays and SYGENCE Holidays.",
-    "2. “Fix” means the repair or replacement of a Software component to remedy the Problem.",
-    "3. “Problem” means a defect in Software as defined in SYGENCE’s standard Software specification that significantly degrades such Software.",
-    "4. “Respond” means acknowledgment of Problem received containing assigned support engineer name, date and time assigned, and severity assignment.",
-    "5. “Workaround” means a change in the procedures followed or data supplied by the USER to avoid a Problem without substantially impairing USER’s use of the Software."
+    {
+      "header": "12.1 Turnaround Time and Access Provisioning:",
+      "para": "SYGENCE agrees to maintain a reasonable Turnaround Time (TAT) for handling customer requests or performing services as outlined in this Agreement. The TAT will be measured from the moment the request is received by SYGENCE until the completion of the requested actions or services. The following table outlines the specific TAT response and TAT resolutions for different severity levels and categories:",
+      "table": {
+        "header": [
+          "Category",
+          "Severity",
+          "Priority",
+          "TAT Response",
+          "TAT Resolution"
+        ],
+        "values": [
+          {
+            "category": "Level 1",
+            "severity": "High",
+            "priority": "High",
+            "response": "( ) Hours",
+            "resolution": "( ) Hours"
+          },
+          {
+            "category": "Level 2",
+            "severity": "Medium",
+            "priority": "High",
+            "response": "( ) Hours",
+            "resolution": "( ) Working days"
+          },
+          {
+            "category": "Level 3",
+            "severity": "Low",
+            "priority": "Medium/Low",
+            "response": "( ) Hours",
+            "resolution": "( ) Working days"
+          }
+        ]
+      },
+      "category": {
+        "title": "Category Definitions:",
+        "cards": [
+          {
+            "header": "Level 1:"
+          },
+          {
+            "header": "Level 2:"
+          },
+          {
+            "header": "Level 3:"
+          }
+        ]
+      }
+    },
+    {
+      "header": "12.2 Exclusions: The TAT does not cover delays and disruptions caused by factors beyond SYGENCE’s control, including but not limited to:",
+      "points": [
+        "Force Majeure events as mentioned.",
+        "Client side infrastructure or system failures.",
+        "Delays caused by Third Party Vendors or Service Providers."
+      ]
+    },
+    {
+      "header": "12.3 Support and Maintenance Services entitles USER to the following:",
+      "points": [
+        "Telephone or electronic support to help Customer locate and correct problems with the Software.",
+        "Bug fixes and code corrections to correct Software malfunctions in order to bring such Software into substantial conformity with the operating specifications.",
+        "All extensions, enhancements and other changes that SYGENCE, at its sole discretion, makes or adds to the Software and which SYGENCE furnishes, without charge, to all other Subscribers of the Service."
+      ]
+    },
+    {
+      "header": "12.4 Response and Resolution Goals:",
+      "points": [
+        "“Business hours” 9am-6pm CST, Monday to Friday, except National holidays and SYGENCE Holidays.",
+        "“Fix” means the repair or replacement of a Software component to remedy the Problem.",
+        "“Problem” means a defect in Software as defined in SYGENCE’s standard Software specification that significantly degrades such Software.",
+        "“Respond” means acknowledgment of Problem received containing assigned support engineer name, date and time assigned, and severity assignment.",
+        "“Workaround” means a change in the procedures followed or data supplied by the USER to avoid a Problem without substantially impairing USER’s use of the Software."
+      ]
+    }
   ]
 }

@@ -7,10 +7,14 @@
     "10.4 While SYGENCE ensures the security of its Platform, it does not control, monitor or assume responsibility for actions carried out by suppliers or customers within their own databases. Accordingly, any data breach, unauthorized access, loss, alteration, disclosure or other incident arising from or in connection with such access shall be the sole responsibility of the supplier and customer. Neither the supplier nor the customer shall hold SYGENCE liable for any claims, damages, liabilities or expenses, and both parties agree to indemnify and hold SYGENCE harmless from any claims arising therefrom.",
     "10.5 The USER acknowledges that any engagement, transaction or exchange of data with third-party entities through the platform is conducted solely at the USER’s risk. Any liability arising from such interactions shall be subject to the limitation of liability provisions outlined in Clauses 10.1 and 10.2, except where expressly excluded under this Agreement.",
     "10.6 SYGENCE shall bear no liability for any disputes, breaches or claims arising out of contractual or operational obligations between two or more USERS contracting on the platform. SYGENCE does not act as a party to such contracts and shall not be responsible for enforcing, mediating or resolving any such disputes.",
-    "10.7 Third-Party Service Providers: To the extent that any part of the Services or Platform operations is supported or facilitated by third-party providers and their respective subcontractors, affiliates or downstream partners (including but not limited to fourth-party providers and any other associated external parties), SYGENCE disclaims all liability for any breach of obligations, failure in service delivery, or misconduct by such entities. SYGENCE shall not be held responsible for disruptions, losses or damages arising from the reliance on services rendered by these providers, except where such issues result directly from SYGENCE’s gross negligence in their appointment or oversight.",
-    "10A. API Provisions",
-    "1. SYGENCE may grant the USER access to its API for integration purposes, subject to compliance with the terms of this Agreement.",
-    "2. The USER shall not engage in unauthorized modifications, reverse engineering or any attempt to extract underlying source code or architecture from the API.",
-    "3. API access may be restricted, modified or revoked at SYGENCE’s discretion and the USER shall have no claims arising from such modifications."
-  ]
+    "10.7 Third-Party Service Providers: To the extent that any part of the Services or Platform operations is supported or facilitated by third-party providers and their respective subcontractors, affiliates or downstream partners (including but not limited to fourth-party providers and any other associated external parties), SYGENCE disclaims all liability for any breach of obligations, failure in service delivery, or misconduct by such entities. SYGENCE shall not be held responsible for disruptions, losses or damages arising from the reliance on services rendered by these providers, except where such issues result directly from SYGENCE’s gross negligence in their appointment or oversight."
+  ],
+  "subcontent" : {
+    "header": "10A. API Provisions",
+    "points": [
+    "SYGENCE may grant the USER access to its API for integration purposes, subject to compliance with the terms of this Agreement.",
+    "The USER shall not engage in unauthorized modifications, reverse engineering or any attempt to extract underlying source code or architecture from the API.",
+    "API access may be restricted, modified or revoked at SYGENCE’s discretion and the USER shall have no claims arising from such modifications.",
+    "The USER shall ensure that API usage does not result in excessive or abnormal load that may impact platform stability."
+  ]}
 }

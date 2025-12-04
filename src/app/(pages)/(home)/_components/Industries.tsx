@@ -93,7 +93,7 @@ const Dashboard = () => {
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold">Sygence Solution</h3>
+                <h3 className="text-xl font-semibold">Sygence solution</h3>
                 <p className="mt-2 tracking-tighter">{activeSector.solution}</p>
               </div>
 
