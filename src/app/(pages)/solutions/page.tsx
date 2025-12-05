@@ -11,7 +11,7 @@ const SolutionsPage = () => {
     <React.Fragment>
       <Hero />
       <Deliverables />
-      {/* <Workflow /> */}
+      <Workflow />
     </React.Fragment>
   )
 } 

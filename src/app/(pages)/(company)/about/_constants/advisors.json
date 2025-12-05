@@ -26,6 +26,16 @@
                 "As an advisor to Sygence, Paresh leverages his extensive experience to shape our GTM strategy, strengthen enterprise engagement and provide strategic insights drawn from decades of working with Global Organizations."
             ],
             "proPic": "/assets/company/about/paresh-naik-pic.svg"
+        },
+        {
+            "name": "Mr. Devesh Rajadhyax",
+            "description": [
+                "Devesh is a distinguished technology leader with 25 years of experience and a decade of deep specialization in Artificial Intelligence. He is the founder and CEO of Cere Labs, where he has led the creation of more than twenty software products and pioneered enterprise AI solutions for real-world problems.",
+                "A recognised thought leader, he is the author of Decoding GPT, a widely appreciated guide to understanding large language models and a frequent speaker on AI and innovation.",
+                "Prior to Cere Labs, he co-founded 21st Century Informatics, where he led innovation and product development, building a strong foundation in healthcare technology. His broad scientific curiosity from neuroscience to mathematics, continues to fuel his work in advancing applied AI.",
+                "At Sygence, Devesh brings strategic insight and deep expertise in AI-driven systems, helping shape the intelligence layer that powers our network-native orchestration platform."
+            ],
+            "proPic": "/assets/company/about/devesh-pic.jpg"
         }
     ]
 }

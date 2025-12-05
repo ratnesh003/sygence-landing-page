@@ -9,7 +9,7 @@ const Advisors = () => {
   return (
     <Border>
       <div className="flex flex-col items-center justify-center" id="advisors">
-        <h1 className="text-5xl font-medium tracking-tight mb-6">{advisors.title}</h1>
+        <h1 className="text-5xl font-medium tracking-tight mb-6 w-full text-center">{advisors.title}</h1>
         <p className="w-full lg:w-3xl text-center tracking-wide mb-20">{advisors.description}</p>
         {advisors.cards.map((content, idx) => (
           <div
@@ -25,7 +25,7 @@ const Advisors = () => {
                 height={100}
                 width={100}
                 alt={content.name + "profile pic"}
-                className="w-full object-contain h-auto"
+                className="w-full md:w-64 object-contain h-auto rounded-3xl"
               />
             </div>
             <div className={cn("w-full xl:w-3/4",idx % 2 ? "pr-6" : "pl-6")}>
